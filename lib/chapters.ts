@@ -52,6 +52,54 @@ export const chapters: Chapter[] = [
       },
     ],
   },
+  {
+    slug: "einfuhrung-in-ki-und-ollama",
+    title: "Tag 1", // Einführung in KI & Ollama",
+    description: "Tag 1 — Einführung in KI & Ollama Grundlagen.",
+    subchapters: [
+      {
+        slug: "course-day1",
+        title: "Tag 1: Einführung in KI & Ollama",
+        load: () => import("@/content/1-Einführung-in-KI-und-Ollama/content.md"),
+      },
+    ],
+  },
+  {
+    slug: "arbeiten-mit-llms-und-prompt-engineering",
+    title: "Tag 2", // Arbeiten mit LLMs & Prompt Engineering",
+    description: "Tag 2 — Arbeiten mit LLMs & Prompt Engineering.",
+    subchapters: [
+      {
+        slug: "course-day2",
+        title: "Tag 2: Arbeiten mit LLMs & Prompt Engineering",
+        load: () => import("@/content/2-Arbeiten-mit-LLMs-und-Prompt-Engineering/content.md"),
+      },
+    ],
+  },
+  {
+    slug: "datenverarbeitung-und-ki-anwendungen",
+    title: "Tag 3", // Datenverarbeitung & KI-Anwendungen",
+    description: "Tag 3 — Datenverarbeitung & KI-Anwendungen.",
+    subchapters: [
+      {
+        slug: "course-day3",
+        title: "Tag 3: Datenverarbeitung & KI-Anwendungen",
+        load: () => import("@/content/3-Datenverarbeitung-und-KI-Anwendungen/content.md"),
+      },
+    ],
+  },
+  {
+    slug: "fortgeschrittene-anwendungen-mit-llms-und-daten",
+    title: "Tag 4", // Fortgeschrittene Anwendungen mit LLMs & Daten",
+    description: "Tag 4 — Fortgeschrittene Anwendungen mit LLMs & Daten.",
+    subchapters: [
+      {
+        slug: "course-day4",
+        title: "Tag 4: Fortgeschrittene Anwendungen mit LLMs & Daten",
+        load: () => import("@/content/4-Fortgeschrittene-Anwendungen-mit-LLMs-und-Daten/content.md"),
+      },
+    ],
+  },
 ];
 
 export function getChapterHref(slug: string) {

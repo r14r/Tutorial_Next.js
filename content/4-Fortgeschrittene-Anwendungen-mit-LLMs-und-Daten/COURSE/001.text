@@ -1,0 +1,8 @@
+# requirements.txt
+streamlit
+pandas
+requests
+
+# Docker
+docker build -t meine-app .
+docker run -p 8501:8501 meine-app

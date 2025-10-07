@@ -1,8 +1,15 @@
 node_modules
 .venv
 
-.vscode.usr
-.vscode.ext
-
+# Next.js build output
 .next
+
+# VS Code caches and profiles
+.vscode/
+.vscode.ext/
+.vscode.usr/
+
+# macOS filesystem noise
+.DS_Store
+
 

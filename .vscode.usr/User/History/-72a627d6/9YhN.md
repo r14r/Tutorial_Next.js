@@ -1,5 +1,0 @@
-## Einheit 3.6 — FAQ-Bot mit Ollama
-
-### Hintergrund
-
-Ein FAQ-Bot kann häufig gestellte Fragen beantworten. Man lädt ein Dokument oder eine FAQ-Liste hoch, und das Modell antwortet basierend auf diesem Text.

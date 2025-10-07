@@ -302,3 +302,29 @@
 2025-10-07 11:32:09.392 [info] Python API: Changed environment from python (3.13.7) to python (3.13.7) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website
 2025-10-07 11:32:09.392 [info] Internal: Changed environment from python (3.13.7) to python (3.13.7) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website
 2025-10-07 11:36:50.720 [info] Terminal is activated: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python
+2025-10-07 11:42:12.518 [info] Running: uv pip install --python /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python next-i18next
+2025-10-07 11:42:12.634 [info] Using Python 3.13.7 environment at: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python
+
+2025-10-07 11:42:12.971 [info]   × No solution found when resolving dependencies:
+
+2025-10-07 11:42:12.971 [info]   ╰─▶ Because next-i18next was not found in the package registry and you
+      require next-i18next, we can conclude that your requirements are
+      unsatisfiable.
+
+2025-10-07 11:42:12.979 [error] Error managing packages Failed to run uv pip install --python /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python next-i18next
+2025-10-07 11:44:55.219 [info] Locator GlobalVirtualEnvs took 333ns
+2025-10-07 11:44:55.220 [info] Locator Locators took 1.073µs
+2025-10-07 11:44:55.220 [info] Locator Path took 244ns
+2025-10-07 11:44:55.220 [info] Locator Workspaces took 2.882333ms
+2025-10-07 11:44:55.221 [info] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":3,"breakdown":{"GlobalVirtualEnvs":0,"Locators":0,"Path":0,"Workspaces":2},"locators":{}}}}
+2025-10-07 11:44:55.255 [info] Resolved Python Environment /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python
+2025-10-07 11:44:55.259 [info] Python API: Changed environment from python (3.13.7) to python (3.13.7) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website
+2025-10-07 11:44:55.259 [info] Internal: Changed environment from python (3.13.7) to python (3.13.7) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website
+2025-10-07 11:51:41.768 [info] Locator GlobalVirtualEnvs took 273ns
+2025-10-07 11:51:41.769 [info] Locator Locators took 249ns
+2025-10-07 11:51:41.769 [info] Locator Path took 712ns
+2025-10-07 11:51:41.769 [info] Locator Workspaces took 2.414591ms
+2025-10-07 11:51:41.770 [info] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":2,"breakdown":{"GlobalVirtualEnvs":0,"Locators":0,"Path":0,"Workspaces":2},"locators":{}}}}
+2025-10-07 11:51:41.829 [info] Resolved Python Environment /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python
+2025-10-07 11:51:41.842 [info] Python API: Changed environment from python (3.13.7) to python (3.13.7) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website
+2025-10-07 11:51:41.842 [info] Internal: Changed environment from python (3.13.7) to python (3.13.7) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website

@@ -30,10 +30,10 @@
             "backupPath": "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.usr/Backups/6e01137036bee394ab8b9517b82123a5",
             "uiState": {
                 "mode": 1,
-                "x": 371,
-                "y": 353,
-                "width": 2136,
-                "height": 1073
+                "x": 442,
+                "y": 321,
+                "width": 2065,
+                "height": 1105
             }
         },
         "openedWindows": []
@@ -62,16 +62,16 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 200,
-            "auxiliaryBarWidth": 820,
+            "sideBarWidth": 315,
+            "auxiliaryBarWidth": 893,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 200,
-            "auxiliaryBarWidth": 820,
+            "sideBarWidth": 315,
+            "auxiliaryBarWidth": 893,
             "workspaces": {
                 "d85205981788e66efec393447f8a4fe7": {
                     "sideBarVisible": true,

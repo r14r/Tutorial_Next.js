@@ -19,3 +19,5 @@
 2025-10-07 11:12:44.682 [info] [getSessions] [all] returned 0 session(s)
 2025-10-07 11:17:32.030 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
 2025-10-07 11:17:32.031 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2025-10-07 11:39:36.865 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2025-10-07 11:39:36.867 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)

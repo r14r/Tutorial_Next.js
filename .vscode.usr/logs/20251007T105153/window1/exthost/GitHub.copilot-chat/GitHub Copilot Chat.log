@@ -517,3 +517,429 @@
 2025-10-07 11:36:30.152 [info] message 0 returned. finish reason: [content_filter]
 2025-10-07 11:36:30.152 [info] request done: requestId: [41980999-bd14-4d33-8442-73be3f96309d] model deployment ID: []
 2025-10-07 11:36:31.157 [info] ccreq:8c5707ea.copilotmd | markdown
+2025-10-07 11:39:36.477 [info] Logged in as r14r
+2025-10-07 11:39:36.855 [info] Got Copilot token for r14r
+2025-10-07 11:39:36.855 [info] Copilot Chat: 0.32.2025100703, VS Code: 1.105.0-insider
+2025-10-07 11:39:36.875 [info] copilot token chat_enabled: true, sku: yearly_subscriber_quota
+2025-10-07 11:39:37.432 [info] Fetched model metadata in 1021ms 27fed9ca-7b05-4e29-896a-f0586f09e0ff
+2025-10-07 11:39:37.553 [info] ccreq:b117edbc.copilotmd | markdown
+2025-10-07 11:39:37.569 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 11:39:37.569 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 11:39:37.723 [info] Fetched auto model in 164ms.
+2025-10-07 11:39:37.992 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:39:43.883 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:39:43.886 [info] request done: requestId: [d98f25c4-d974-4369-933a-7df8a9a627b5] model deployment ID: []
+2025-10-07 11:39:43.887 [info] ccreq:866bdad0.copilotmd | success | gpt-4.1 | 5896ms | [panel/editAgent]
+2025-10-07 11:40:23.467 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 11:40:23.468 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 11:40:23.883 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:40:26.942 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:40:26.942 [info] request done: requestId: [4c0d2696-a11e-478c-a7f2-e40028229d9e] model deployment ID: []
+2025-10-07 11:40:26.944 [info] ccreq:fba2f312.copilotmd | success | gpt-4.1 | 3061ms | [panel/editAgent]
+2025-10-07 11:40:29.863 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:40:29.863 [info] request done: requestId: [830923d5-df89-4f0c-a1f0-0563914e65a5] model deployment ID: []
+2025-10-07 11:40:29.864 [info] ccreq:c9cef41d.copilotmd | success | gpt-4o-mini | 2864ms | [healApplyPatch]
+2025-10-07 11:40:29.967 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:40:31.118 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:40:31.118 [info] request done: requestId: [4c0d2696-a11e-478c-a7f2-e40028229d9e] model deployment ID: []
+2025-10-07 11:40:31.119 [info] ccreq:1d057c3b.copilotmd | success | gpt-4.1 | 1151ms | [panel/editAgent]
+2025-10-07 11:40:31.179 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:40:33.628 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:40:33.628 [info] request done: requestId: [4c0d2696-a11e-478c-a7f2-e40028229d9e] model deployment ID: []
+2025-10-07 11:40:33.629 [info] ccreq:915a8d40.copilotmd | success | gpt-4.1 | 2450ms | [panel/editAgent]
+2025-10-07 11:40:35.764 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:40:36.955 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:40:36.956 [info] request done: requestId: [4c0d2696-a11e-478c-a7f2-e40028229d9e] model deployment ID: []
+2025-10-07 11:40:36.956 [info] ccreq:f3bbeeb3.copilotmd | success | gpt-4.1 | 1192ms | [panel/editAgent]
+2025-10-07 11:40:37.011 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:40:38.932 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:40:38.934 [info] request done: requestId: [4c0d2696-a11e-478c-a7f2-e40028229d9e] model deployment ID: []
+2025-10-07 11:40:38.935 [info] ccreq:d980fea8.copilotmd | success | gpt-4.1 | 1924ms | [panel/editAgent]
+2025-10-07 11:40:39.047 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:40:42.355 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:40:42.356 [info] request done: requestId: [4c0d2696-a11e-478c-a7f2-e40028229d9e] model deployment ID: []
+2025-10-07 11:40:42.357 [info] ccreq:5316101c.copilotmd | success | gpt-4.1 | 3309ms | [panel/editAgent]
+2025-10-07 11:40:48.507 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:40:50.197 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:40:50.197 [info] request done: requestId: [4c0d2696-a11e-478c-a7f2-e40028229d9e] model deployment ID: []
+2025-10-07 11:40:50.197 [info] ccreq:bf915e3f.copilotmd | success | gpt-4.1 | 1690ms | [panel/editAgent]
+2025-10-07 11:41:46.817 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 11:41:46.817 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 11:41:47.343 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:41:49.098 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:41:49.098 [info] request done: requestId: [eb53b93a-2864-4d09-b6f9-9a31a1a68d45] model deployment ID: []
+2025-10-07 11:41:49.099 [info] ccreq:1d6b1c55.copilotmd | success | gpt-4.1 | 1756ms | [panel/editAgent]
+2025-10-07 11:42:13.002 [error] Error from tool install_python_packages with args {"packageList":["next-i18next"],"resourcePath":"/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website"}: Failed to run uv pip install --python /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python next-i18next: Error: Failed to run uv pip install --python /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python next-i18next
+    at ChildProcess.<anonymous> (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/ms-python.vscode-python-envs-1.8.0-darwin-x64/dist/extension.js:2:452568)
+    at ChildProcess.emit (node:events:519:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-10-07 11:42:13.678 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:42:15.623 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:42:15.623 [info] request done: requestId: [eb53b93a-2864-4d09-b6f9-9a31a1a68d45] model deployment ID: []
+2025-10-07 11:42:15.625 [info] ccreq:dac7f2ac.copilotmd | success | gpt-4.1 | 1947ms | [panel/editAgent]
+2025-10-07 11:42:28.928 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:42:30.377 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:42:30.377 [info] request done: requestId: [eb53b93a-2864-4d09-b6f9-9a31a1a68d45] model deployment ID: []
+2025-10-07 11:42:30.378 [info] ccreq:8ec14d41.copilotmd | success | gpt-4.1 | 1450ms | [panel/editAgent]
+2025-10-07 11:42:32.424 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:42:35.115 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:42:35.115 [info] request done: requestId: [eb53b93a-2864-4d09-b6f9-9a31a1a68d45] model deployment ID: []
+2025-10-07 11:42:35.116 [info] ccreq:e390422b.copilotmd | success | gpt-4.1 | 2692ms | [panel/editAgent]
+2025-10-07 11:42:39.098 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:42:39.098 [info] request done: requestId: [e14c489f-5413-41ea-834f-5d21bd418c92] model deployment ID: []
+2025-10-07 11:42:39.101 [info] ccreq:f4c90436.copilotmd | success | gpt-4o-mini | 3926ms | [healApplyPatch]
+2025-10-07 11:42:41.129 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:42:42.965 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:42:42.965 [info] request done: requestId: [eb53b93a-2864-4d09-b6f9-9a31a1a68d45] model deployment ID: []
+2025-10-07 11:42:42.966 [info] ccreq:50d3bd20.copilotmd | success | gpt-4.1 | 1836ms | [panel/editAgent]
+2025-10-07 11:42:45.023 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:42:46.191 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:42:46.191 [info] request done: requestId: [eb53b93a-2864-4d09-b6f9-9a31a1a68d45] model deployment ID: []
+2025-10-07 11:42:46.192 [info] ccreq:8f521a25.copilotmd | success | gpt-4.1 | 1169ms | [panel/editAgent]
+2025-10-07 11:42:46.250 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:42:47.569 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:42:47.570 [info] request done: requestId: [eb53b93a-2864-4d09-b6f9-9a31a1a68d45] model deployment ID: []
+2025-10-07 11:42:47.570 [info] ccreq:4e5c86e5.copilotmd | success | gpt-4.1 | 1320ms | [panel/editAgent]
+2025-10-07 11:42:47.616 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:42:50.369 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:42:50.369 [info] request done: requestId: [eb53b93a-2864-4d09-b6f9-9a31a1a68d45] model deployment ID: []
+2025-10-07 11:42:50.369 [info] ccreq:98574fea.copilotmd | success | gpt-4.1 | 2753ms | [panel/editAgent]
+2025-10-07 11:42:52.418 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:42:53.863 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:42:53.863 [info] request done: requestId: [eb53b93a-2864-4d09-b6f9-9a31a1a68d45] model deployment ID: []
+2025-10-07 11:42:53.863 [info] ccreq:5eae4e3e.copilotmd | success | gpt-4.1 | 1445ms | [panel/editAgent]
+2025-10-07 11:42:53.919 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:42:58.263 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:42:58.263 [info] request done: requestId: [eb53b93a-2864-4d09-b6f9-9a31a1a68d45] model deployment ID: []
+2025-10-07 11:42:58.264 [info] ccreq:fc9bcecc.copilotmd | success | gpt-4.1 | 4345ms | [panel/editAgent]
+2025-10-07 11:43:00.294 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:43:02.246 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:43:02.246 [info] request done: requestId: [eb53b93a-2864-4d09-b6f9-9a31a1a68d45] model deployment ID: []
+2025-10-07 11:43:02.247 [info] ccreq:0d10cca0.copilotmd | success | gpt-4.1 | 1952ms | [panel/editAgent]
+2025-10-07 11:44:09.719 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 11:44:09.720 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 11:44:10.310 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:44:11.994 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:44:11.994 [info] request done: requestId: [a97ebc1a-0d64-40ca-ad39-d809e8a9b112] model deployment ID: []
+2025-10-07 11:44:12.001 [info] ccreq:aac8d004.copilotmd | success | gpt-4.1 | 1688ms | [panel/editAgent]
+2025-10-07 11:44:12.090 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:44:16.133 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:44:16.134 [info] request done: requestId: [a97ebc1a-0d64-40ca-ad39-d809e8a9b112] model deployment ID: []
+2025-10-07 11:44:16.134 [info] ccreq:19759ccf.copilotmd | success | gpt-4.1 | 4046ms | [panel/editAgent]
+2025-10-07 11:44:18.187 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:44:19.508 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:44:19.508 [info] request done: requestId: [a97ebc1a-0d64-40ca-ad39-d809e8a9b112] model deployment ID: []
+2025-10-07 11:44:19.508 [info] ccreq:b071e0b3.copilotmd | success | gpt-4.1 | 1322ms | [panel/editAgent]
+2025-10-07 11:44:19.699 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:44:20.769 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:44:20.769 [info] request done: requestId: [a97ebc1a-0d64-40ca-ad39-d809e8a9b112] model deployment ID: []
+2025-10-07 11:44:20.770 [info] ccreq:80cd5111.copilotmd | success | gpt-4.1 | 1071ms | [panel/editAgent]
+2025-10-07 11:44:20.809 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:44:22.338 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:44:22.338 [info] request done: requestId: [a97ebc1a-0d64-40ca-ad39-d809e8a9b112] model deployment ID: []
+2025-10-07 11:44:22.339 [info] ccreq:bcce7da8.copilotmd | success | gpt-4.1 | 1529ms | [panel/editAgent]
+2025-10-07 11:44:22.392 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:44:23.681 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:44:23.681 [info] request done: requestId: [a97ebc1a-0d64-40ca-ad39-d809e8a9b112] model deployment ID: []
+2025-10-07 11:44:23.681 [info] ccreq:cf0b1384.copilotmd | success | gpt-4.1 | 1289ms | [panel/editAgent]
+2025-10-07 11:44:23.730 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:44:26.160 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:44:26.160 [info] request done: requestId: [a97ebc1a-0d64-40ca-ad39-d809e8a9b112] model deployment ID: []
+2025-10-07 11:44:26.161 [info] ccreq:55d757ac.copilotmd | success | gpt-4.1 | 2431ms | [panel/editAgent]
+2025-10-07 11:44:26.222 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:44:27.973 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:44:27.973 [info] request done: requestId: [a97ebc1a-0d64-40ca-ad39-d809e8a9b112] model deployment ID: []
+2025-10-07 11:44:27.973 [info] ccreq:c6fc8daf.copilotmd | success | gpt-4.1 | 1751ms | [panel/editAgent]
+2025-10-07 11:44:28.025 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:44:29.249 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:44:29.249 [info] request done: requestId: [a97ebc1a-0d64-40ca-ad39-d809e8a9b112] model deployment ID: []
+2025-10-07 11:44:29.250 [info] ccreq:0e9d22c6.copilotmd | success | gpt-4.1 | 1224ms | [panel/editAgent]
+2025-10-07 11:44:29.296 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:44:33.788 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:44:33.788 [info] request done: requestId: [a97ebc1a-0d64-40ca-ad39-d809e8a9b112] model deployment ID: []
+2025-10-07 11:44:33.789 [info] ccreq:d25f60c3.copilotmd | success | gpt-4.1 | 4494ms | [panel/editAgent]
+2025-10-07 11:44:41.177 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:44:41.177 [info] request done: requestId: [c02f043d-0365-4ba6-adb4-3123501ec0a4] model deployment ID: []
+2025-10-07 11:44:41.177 [info] ccreq:c6c7e773.copilotmd | success | gpt-4o-mini | 7373ms | [healApplyPatch]
+2025-10-07 11:44:41.199 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:44:42.977 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:44:42.977 [info] request done: requestId: [a97ebc1a-0d64-40ca-ad39-d809e8a9b112] model deployment ID: []
+2025-10-07 11:44:42.978 [info] ccreq:c2b19052.copilotmd | success | gpt-4.1 | 1778ms | [panel/editAgent]
+2025-10-07 11:44:43.040 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:44:47.766 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:44:47.766 [info] request done: requestId: [a97ebc1a-0d64-40ca-ad39-d809e8a9b112] model deployment ID: []
+2025-10-07 11:44:47.767 [info] ccreq:832f7cbc.copilotmd | success | gpt-4.1 | 4728ms | [panel/editAgent]
+2025-10-07 11:44:49.906 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:44:53.142 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:44:53.142 [info] request done: requestId: [a97ebc1a-0d64-40ca-ad39-d809e8a9b112] model deployment ID: []
+2025-10-07 11:44:53.143 [info] ccreq:465bda50.copilotmd | success | gpt-4.1 | 3238ms | [panel/editAgent]
+2025-10-07 11:45:24.276 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 11:45:24.276 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 11:45:24.679 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:45:27.200 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:45:27.200 [info] request done: requestId: [322ddba1-9541-45a0-b928-c52b8f07f443] model deployment ID: []
+2025-10-07 11:45:27.201 [info] ccreq:ca5ede27.copilotmd | success | gpt-4.1 | 2524ms | [panel/editAgent]
+2025-10-07 11:45:35.991 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 11:45:35.992 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 11:45:36.048 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:45:38.626 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:45:38.626 [info] request done: requestId: [85a8a541-6a2b-43f4-bf22-2c57e9fd3f91] model deployment ID: []
+2025-10-07 11:45:38.627 [info] ccreq:17bfa6b8.copilotmd | success | gpt-4.1 | 2579ms | [panel/editAgent]
+2025-10-07 11:46:00.265 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:46:02.886 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:46:02.886 [info] request done: requestId: [85a8a541-6a2b-43f4-bf22-2c57e9fd3f91] model deployment ID: []
+2025-10-07 11:46:02.887 [info] ccreq:02514c5b.copilotmd | success | gpt-4.1 | 2622ms | [panel/editAgent]
+2025-10-07 11:46:09.078 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:46:10.448 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:46:10.448 [info] request done: requestId: [85a8a541-6a2b-43f4-bf22-2c57e9fd3f91] model deployment ID: []
+2025-10-07 11:46:10.449 [info] ccreq:44e77847.copilotmd | success | gpt-4.1 | 1372ms | [panel/editAgent]
+2025-10-07 11:46:10.565 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:46:11.958 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:46:11.958 [info] request done: requestId: [85a8a541-6a2b-43f4-bf22-2c57e9fd3f91] model deployment ID: []
+2025-10-07 11:46:11.958 [info] ccreq:898c2e38.copilotmd | success | gpt-4.1 | 1393ms | [panel/editAgent]
+2025-10-07 11:46:12.011 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:46:16.300 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:46:16.300 [info] request done: requestId: [85a8a541-6a2b-43f4-bf22-2c57e9fd3f91] model deployment ID: []
+2025-10-07 11:46:16.301 [info] ccreq:875aa584.copilotmd | success | gpt-4.1 | 4290ms | [panel/editAgent]
+2025-10-07 11:46:18.355 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:46:20.250 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:46:20.250 [info] request done: requestId: [85a8a541-6a2b-43f4-bf22-2c57e9fd3f91] model deployment ID: []
+2025-10-07 11:46:20.251 [info] ccreq:941419ce.copilotmd | success | gpt-4.1 | 1895ms | [panel/editAgent]
+2025-10-07 11:46:22.386 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:46:24.645 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:46:24.645 [info] request done: requestId: [85a8a541-6a2b-43f4-bf22-2c57e9fd3f91] model deployment ID: []
+2025-10-07 11:46:24.646 [info] ccreq:4fe2aa05.copilotmd | success | gpt-4.1 | 2260ms | [panel/editAgent]
+2025-10-07 11:46:26.713 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:46:30.163 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:46:30.163 [info] request done: requestId: [85a8a541-6a2b-43f4-bf22-2c57e9fd3f91] model deployment ID: []
+2025-10-07 11:46:30.165 [info] ccreq:b4cde9eb.copilotmd | success | gpt-4.1 | 3451ms | [panel/editAgent]
+2025-10-07 11:49:15.582 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 11:49:15.582 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 11:49:15.905 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:49:17.755 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:49:17.756 [info] request done: requestId: [34b19472-e9c5-4b39-8e0d-bbb12e4f893f] model deployment ID: []
+2025-10-07 11:49:17.757 [info] ccreq:3c54d11c.copilotmd | success | gpt-4.1 | 1853ms | [panel/editAgent]
+2025-10-07 11:49:17.838 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:49:20.536 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:49:20.536 [info] request done: requestId: [34b19472-e9c5-4b39-8e0d-bbb12e4f893f] model deployment ID: []
+2025-10-07 11:49:20.537 [info] ccreq:7d1cba99.copilotmd | success | gpt-4.1 | 2699ms | [panel/editAgent]
+2025-10-07 11:49:33.522 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 11:49:33.523 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 11:49:33.581 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:49:37.636 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:49:37.636 [info] request done: requestId: [710ec139-475d-4e42-ad3c-089a14035154] model deployment ID: []
+2025-10-07 11:49:37.638 [info] ccreq:a4564c66.copilotmd | success | gpt-4.1 | 4056ms | [panel/editAgent]
+2025-10-07 11:49:37.765 [info] Fetched model metadata in 119ms c1f5ce5f-788d-4629-9b88-392f83badf44
+2025-10-07 11:49:37.768 [info] ccreq:400ff3b4.copilotmd | markdown
+2025-10-07 11:49:50.154 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 11:49:50.155 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 11:49:50.715 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:49:51.994 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:49:51.994 [info] request done: requestId: [b61331f3-eabb-4c7c-bec5-22dd48b2b0df] model deployment ID: []
+2025-10-07 11:49:51.994 [info] ccreq:34ffab36.copilotmd | success | gpt-4.1 | 1280ms | [panel/editAgent]
+2025-10-07 11:49:52.046 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:49:55.010 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:49:55.010 [info] request done: requestId: [b61331f3-eabb-4c7c-bec5-22dd48b2b0df] model deployment ID: []
+2025-10-07 11:49:55.011 [info] ccreq:36afefef.copilotmd | success | gpt-4.1 | 2965ms | [panel/editAgent]
+2025-10-07 11:49:55.078 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:49:56.618 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:49:56.619 [info] request done: requestId: [b61331f3-eabb-4c7c-bec5-22dd48b2b0df] model deployment ID: []
+2025-10-07 11:49:56.619 [info] ccreq:93494760.copilotmd | success | gpt-4.1 | 1541ms | [panel/editAgent]
+2025-10-07 11:49:56.688 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:49:58.550 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:49:58.550 [info] request done: requestId: [b61331f3-eabb-4c7c-bec5-22dd48b2b0df] model deployment ID: []
+2025-10-07 11:49:58.551 [info] ccreq:047c9265.copilotmd | success | gpt-4.1 | 1863ms | [panel/editAgent]
+2025-10-07 11:49:58.594 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:49:59.841 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:49:59.841 [info] request done: requestId: [b61331f3-eabb-4c7c-bec5-22dd48b2b0df] model deployment ID: []
+2025-10-07 11:49:59.842 [info] ccreq:1116bf8f.copilotmd | success | gpt-4.1 | 1249ms | [panel/editAgent]
+2025-10-07 11:49:59.890 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:50:01.360 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:50:01.361 [info] request done: requestId: [b61331f3-eabb-4c7c-bec5-22dd48b2b0df] model deployment ID: []
+2025-10-07 11:50:01.362 [info] ccreq:6b4453e3.copilotmd | success | gpt-4.1 | 1471ms | [panel/editAgent]
+2025-10-07 11:50:01.426 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:50:05.225 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:50:05.225 [info] request done: requestId: [b61331f3-eabb-4c7c-bec5-22dd48b2b0df] model deployment ID: []
+2025-10-07 11:50:05.226 [info] ccreq:a818e0ae.copilotmd | success | gpt-4.1 | 3800ms | [panel/editAgent]
+2025-10-07 11:50:07.284 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:50:10.580 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:50:10.580 [info] request done: requestId: [b61331f3-eabb-4c7c-bec5-22dd48b2b0df] model deployment ID: []
+2025-10-07 11:50:10.581 [info] ccreq:023885bd.copilotmd | success | gpt-4.1 | 3297ms | [panel/editAgent]
+2025-10-07 11:50:10.637 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:50:12.178 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:50:12.178 [info] request done: requestId: [b61331f3-eabb-4c7c-bec5-22dd48b2b0df] model deployment ID: []
+2025-10-07 11:50:12.179 [info] ccreq:06a75732.copilotmd | success | gpt-4.1 | 1542ms | [panel/editAgent]
+2025-10-07 11:50:12.239 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:50:14.005 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:50:14.005 [info] request done: requestId: [b61331f3-eabb-4c7c-bec5-22dd48b2b0df] model deployment ID: []
+2025-10-07 11:50:14.006 [info] ccreq:1fc9239c.copilotmd | success | gpt-4.1 | 1767ms | [panel/editAgent]
+2025-10-07 11:50:14.055 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:50:15.903 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:50:15.903 [info] request done: requestId: [b61331f3-eabb-4c7c-bec5-22dd48b2b0df] model deployment ID: []
+2025-10-07 11:50:15.904 [info] ccreq:72a43e5d.copilotmd | success | gpt-4.1 | 1849ms | [panel/editAgent]
+2025-10-07 11:50:44.732 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 11:50:44.732 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 11:50:45.499 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:50:49.405 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:50:49.405 [info] request done: requestId: [c6b34ac7-c57c-4327-a1b5-4664d3a57ca8] model deployment ID: []
+2025-10-07 11:50:49.407 [info] ccreq:88206209.copilotmd | success | gpt-4.1 | 3908ms | [panel/editAgent]
+2025-10-07 11:50:49.502 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:50:50.842 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:50:50.842 [info] request done: requestId: [c6b34ac7-c57c-4327-a1b5-4664d3a57ca8] model deployment ID: []
+2025-10-07 11:50:50.844 [info] ccreq:5eb54cd9.copilotmd | success | gpt-4.1 | 1343ms | [panel/editAgent]
+2025-10-07 11:50:50.904 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:50:54.242 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:50:54.242 [info] request done: requestId: [c6b34ac7-c57c-4327-a1b5-4664d3a57ca8] model deployment ID: []
+2025-10-07 11:50:54.243 [info] ccreq:7d92ff54.copilotmd | success | gpt-4.1 | 3340ms | [panel/editAgent]
+2025-10-07 11:50:54.318 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:50:56.833 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:50:56.833 [info] request done: requestId: [c6b34ac7-c57c-4327-a1b5-4664d3a57ca8] model deployment ID: []
+2025-10-07 11:50:56.834 [info] ccreq:7d9764f1.copilotmd | success | gpt-4.1 | 2516ms | [panel/editAgent]
+2025-10-07 11:50:59.213 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:50:59.214 [info] request done: requestId: [a11755e4-69cf-447d-ad1b-954f75f7d458] model deployment ID: []
+2025-10-07 11:50:59.214 [info] ccreq:3063a2d3.copilotmd | success | gpt-4o-mini | 2344ms | [healApplyPatch]
+2025-10-07 11:50:59.243 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:51:03.226 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:51:03.226 [info] request done: requestId: [c6b34ac7-c57c-4327-a1b5-4664d3a57ca8] model deployment ID: []
+2025-10-07 11:51:03.227 [info] ccreq:7c4e523a.copilotmd | success | gpt-4.1 | 3984ms | [panel/editAgent]
+2025-10-07 11:51:03.278 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:51:04.830 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:51:04.830 [info] request done: requestId: [c6b34ac7-c57c-4327-a1b5-4664d3a57ca8] model deployment ID: []
+2025-10-07 11:51:04.831 [info] ccreq:63c4167d.copilotmd | success | gpt-4.1 | 1553ms | [panel/editAgent]
+2025-10-07 11:51:04.883 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:51:06.619 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:51:06.619 [info] request done: requestId: [c6b34ac7-c57c-4327-a1b5-4664d3a57ca8] model deployment ID: []
+2025-10-07 11:51:06.619 [info] ccreq:b2d69b5a.copilotmd | success | gpt-4.1 | 1736ms | [panel/editAgent]
+2025-10-07 11:51:06.677 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:51:08.573 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:51:08.574 [info] request done: requestId: [c6b34ac7-c57c-4327-a1b5-4664d3a57ca8] model deployment ID: []
+2025-10-07 11:51:08.574 [info] ccreq:0ef291ad.copilotmd | success | gpt-4.1 | 1897ms | [panel/editAgent]
+2025-10-07 11:51:10.448 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:51:10.448 [info] request done: requestId: [2e57d24e-5e61-4b1b-9638-e7710f7214e3] model deployment ID: []
+2025-10-07 11:51:10.450 [info] ccreq:599b9f47.copilotmd | success | gpt-4o-mini | 1849ms | [healApplyPatch]
+2025-10-07 11:51:10.497 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:51:11.884 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:51:11.884 [info] request done: requestId: [c6b34ac7-c57c-4327-a1b5-4664d3a57ca8] model deployment ID: []
+2025-10-07 11:51:11.886 [info] ccreq:6d4924a8.copilotmd | success | gpt-4.1 | 1388ms | [panel/editAgent]
+2025-10-07 11:51:12.466 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:51:13.837 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:51:13.837 [info] request done: requestId: [c6b34ac7-c57c-4327-a1b5-4664d3a57ca8] model deployment ID: []
+2025-10-07 11:51:13.838 [info] ccreq:dbf2c2a7.copilotmd | success | gpt-4.1 | 1371ms | [panel/editAgent]
+2025-10-07 11:51:13.890 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:51:15.212 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:51:15.212 [info] request done: requestId: [c6b34ac7-c57c-4327-a1b5-4664d3a57ca8] model deployment ID: []
+2025-10-07 11:51:15.213 [info] ccreq:e822f3f5.copilotmd | success | gpt-4.1 | 1323ms | [panel/editAgent]
+2025-10-07 11:51:15.261 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:51:16.980 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:51:16.980 [info] request done: requestId: [c6b34ac7-c57c-4327-a1b5-4664d3a57ca8] model deployment ID: []
+2025-10-07 11:51:16.981 [info] ccreq:5f77c563.copilotmd | success | gpt-4.1 | 1720ms | [panel/editAgent]
+2025-10-07 11:51:19.893 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:51:19.893 [info] request done: requestId: [9ed14fa7-ef12-4bfd-a048-19cb4b9e7054] model deployment ID: []
+2025-10-07 11:51:19.894 [info] ccreq:26c605dd.copilotmd | success | gpt-4o-mini | 2828ms | [healApplyPatch]
+2025-10-07 11:51:19.923 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:51:23.788 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:51:23.789 [info] request done: requestId: [c6b34ac7-c57c-4327-a1b5-4664d3a57ca8] model deployment ID: []
+2025-10-07 11:51:23.789 [info] ccreq:e2e6f468.copilotmd | success | gpt-4.1 | 3866ms | [panel/editAgent]
+2025-10-07 11:51:25.575 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:51:25.575 [info] request done: requestId: [8258dd38-ff7f-430d-9f91-077b5c019bc0] model deployment ID: []
+2025-10-07 11:51:25.576 [info] ccreq:abaee8b9.copilotmd | success | gpt-4o-mini | 1762ms | [healApplyPatch]
+2025-10-07 11:51:25.605 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:51:26.894 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:51:26.894 [info] request done: requestId: [c6b34ac7-c57c-4327-a1b5-4664d3a57ca8] model deployment ID: []
+2025-10-07 11:51:26.895 [info] ccreq:03ffcbbd.copilotmd | success | gpt-4.1 | 1290ms | [panel/editAgent]
+2025-10-07 11:51:26.942 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:51:29.376 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:51:29.376 [info] request done: requestId: [c6b34ac7-c57c-4327-a1b5-4664d3a57ca8] model deployment ID: []
+2025-10-07 11:51:29.376 [info] ccreq:06d8d1ad.copilotmd | success | gpt-4.1 | 2434ms | [panel/editAgent]
+2025-10-07 11:52:52.208 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 11:52:52.210 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 11:52:52.922 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:52:57.348 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:52:57.348 [info] request done: requestId: [bcfb2e9a-a196-46c3-a9cc-13e9ef806672] model deployment ID: []
+2025-10-07 11:52:57.351 [info] ccreq:0adc4f92.copilotmd | success | gpt-4.1 | 4431ms | [panel/editAgent]
+2025-10-07 11:53:08.211 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 11:53:08.212 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 11:53:08.253 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:53:12.678 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:53:12.678 [info] request done: requestId: [71800bb4-3fdd-4188-90fa-f91a46cd4ba9] model deployment ID: []
+2025-10-07 11:53:12.680 [info] ccreq:783a8a81.copilotmd | success | gpt-4.1 | 4427ms | [panel/editAgent]
+2025-10-07 11:53:18.739 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:53:18.740 [info] request done: requestId: [7cd1e767-a804-4b96-b0b9-b240f1ee5bb0] model deployment ID: []
+2025-10-07 11:53:18.741 [info] ccreq:99201674.copilotmd | success | gpt-4o-mini | 5956ms | [healApplyPatch]
+2025-10-07 11:53:18.776 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:53:20.484 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:53:20.484 [info] request done: requestId: [71800bb4-3fdd-4188-90fa-f91a46cd4ba9] model deployment ID: []
+2025-10-07 11:53:20.485 [info] ccreq:e2126c3a.copilotmd | success | gpt-4.1 | 1709ms | [panel/editAgent]
+2025-10-07 11:53:20.549 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:53:24.459 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:53:24.459 [info] request done: requestId: [71800bb4-3fdd-4188-90fa-f91a46cd4ba9] model deployment ID: []
+2025-10-07 11:53:24.460 [info] ccreq:48ce3b44.copilotmd | success | gpt-4.1 | 3911ms | [panel/editAgent]
+2025-10-07 11:53:26.626 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:53:29.809 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:53:29.809 [info] request done: requestId: [71800bb4-3fdd-4188-90fa-f91a46cd4ba9] model deployment ID: []
+2025-10-07 11:53:29.810 [info] ccreq:6be4cdc8.copilotmd | success | gpt-4.1 | 3184ms | [panel/editAgent]
+2025-10-07 11:53:50.126 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 11:53:50.147 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 11:53:51.023 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:53:54.058 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:53:54.058 [info] request done: requestId: [12d1d4b1-3100-4d96-9e97-fd86171cd9d1] model deployment ID: []
+2025-10-07 11:53:54.060 [info] ccreq:798f8e2f.copilotmd | success | gpt-4.1 | 3036ms | [panel/editAgent]
+2025-10-07 11:53:54.135 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:53:55.948 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:53:55.948 [info] request done: requestId: [12d1d4b1-3100-4d96-9e97-fd86171cd9d1] model deployment ID: []
+2025-10-07 11:53:55.949 [info] ccreq:dd816bf6.copilotmd | success | gpt-4.1 | 1814ms | [panel/editAgent]
+2025-10-07 11:53:56.519 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:53:58.512 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:53:58.521 [info] request done: requestId: [12d1d4b1-3100-4d96-9e97-fd86171cd9d1] model deployment ID: []
+2025-10-07 11:53:58.522 [info] ccreq:850797ca.copilotmd | success | gpt-4.1 | 2003ms | [panel/editAgent]
+2025-10-07 11:54:50.676 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 11:54:50.676 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 11:54:51.122 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:54:54.039 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:54:54.039 [info] request done: requestId: [92cf9690-771d-4cfd-acdb-beaca2291332] model deployment ID: []
+2025-10-07 11:54:54.041 [info] ccreq:d8f90375.copilotmd | success | gpt-4.1 | 2919ms | [panel/editAgent]
+2025-10-07 11:54:54.135 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:54:55.981 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:54:55.981 [info] request done: requestId: [92cf9690-771d-4cfd-acdb-beaca2291332] model deployment ID: []
+2025-10-07 11:54:55.981 [info] ccreq:863fe7c8.copilotmd | success | gpt-4.1 | 1846ms | [panel/editAgent]
+2025-10-07 11:54:56.152 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:54:57.660 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:54:57.660 [info] request done: requestId: [92cf9690-771d-4cfd-acdb-beaca2291332] model deployment ID: []
+2025-10-07 11:54:57.661 [info] ccreq:5cce510f.copilotmd | success | gpt-4.1 | 1509ms | [panel/editAgent]
+2025-10-07 11:54:57.724 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:54:59.226 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:54:59.226 [info] request done: requestId: [92cf9690-771d-4cfd-acdb-beaca2291332] model deployment ID: []
+2025-10-07 11:54:59.227 [info] ccreq:8c5d60c2.copilotmd | success | gpt-4.1 | 1503ms | [panel/editAgent]
+2025-10-07 11:54:59.299 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:55:01.622 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:55:01.622 [info] request done: requestId: [92cf9690-771d-4cfd-acdb-beaca2291332] model deployment ID: []
+2025-10-07 11:55:01.623 [info] ccreq:9a8248c6.copilotmd | success | gpt-4.1 | 2324ms | [panel/editAgent]
+2025-10-07 11:55:33.841 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 11:55:33.842 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 11:55:34.388 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:55:36.275 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:55:36.275 [info] request done: requestId: [2c536e20-fc87-4474-88d5-142738c290d2] model deployment ID: []
+2025-10-07 11:55:36.276 [info] ccreq:8a7ba16c.copilotmd | success | gpt-4.1 | 1888ms | [panel/editAgent]
+2025-10-07 11:55:36.339 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:55:38.088 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:55:38.088 [info] request done: requestId: [2c536e20-fc87-4474-88d5-142738c290d2] model deployment ID: []
+2025-10-07 11:55:38.089 [info] ccreq:4449d702.copilotmd | success | gpt-4.1 | 1750ms | [panel/editAgent]
+2025-10-07 11:56:15.819 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 11:56:15.819 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 11:56:16.375 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:56:17.835 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:56:17.835 [info] request done: requestId: [293104e7-16bc-4f3a-b664-2bed65a62589] model deployment ID: []
+2025-10-07 11:56:17.838 [info] ccreq:bede965a.copilotmd | success | gpt-4.1 | 1463ms | [panel/editAgent]
+2025-10-07 11:56:17.898 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:56:19.711 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:56:19.711 [info] request done: requestId: [293104e7-16bc-4f3a-b664-2bed65a62589] model deployment ID: []
+2025-10-07 11:56:19.712 [info] ccreq:9c871f06.copilotmd | success | gpt-4.1 | 1814ms | [panel/editAgent]
+2025-10-07 11:56:19.775 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:56:21.710 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 11:56:21.710 [info] request done: requestId: [293104e7-16bc-4f3a-b664-2bed65a62589] model deployment ID: []
+2025-10-07 11:56:21.711 [info] ccreq:0a886a7f.copilotmd | success | gpt-4.1 | 1937ms | [panel/editAgent]
+2025-10-07 11:56:21.775 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 11:56:23.538 [info] message 0 returned. finish reason: [stop]
+2025-10-07 11:56:23.538 [info] request done: requestId: [293104e7-16bc-4f3a-b664-2bed65a62589] model deployment ID: []
+2025-10-07 11:56:23.539 [info] ccreq:dd2234a8.copilotmd | success | gpt-4.1 | 1764ms | [panel/editAgent]

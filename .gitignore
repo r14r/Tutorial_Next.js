@@ -1,8 +1,8 @@
 node_modules
 .venv
 
-.vscode.usr/
-.vscode.ext/
+.vscode.usr
+.vscode.ext
 
 .next
 

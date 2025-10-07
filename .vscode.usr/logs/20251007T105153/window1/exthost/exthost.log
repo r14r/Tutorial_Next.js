@@ -141,3 +141,40 @@
     at TCP.<anonymous> (node:net:346:12)
     at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
 2025-10-07 11:38:32.687 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
+2025-10-07 11:38:38.442 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-10-07 11:38:49.007 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10005
+2025-10-07 11:41:55.289 [warning] DiagnosticCollection with name 'pylance' does already exist.
+2025-10-07 11:43:22.343 [error] TypeError: terminated
+    at Fetch.onAborted (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:2042:49)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:92:10)
+    at Object.onError (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:2223:34)
+    at Request.onError (node:internal/deps/undici/undici:2094:31)
+    at Object.errorRequest (node:internal/deps/undici/undici:1591:17)
+    at Socket.<anonymous> (node:internal/deps/undici/undici:6319:16)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-10-07 11:48:28.443 [error] TypeError: terminated
+    at Fetch.onAborted (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:2042:49)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:92:10)
+    at Object.onError (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:2223:34)
+    at Request.onError (node:internal/deps/undici/undici:2094:31)
+    at Object.errorRequest (node:internal/deps/undici/undici:1591:17)
+    at Socket.<anonymous> (node:internal/deps/undici/undici:6319:16)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-10-07 11:51:41.868 [warning] DiagnosticCollection with name 'pylance' does already exist.
+2025-10-07 11:53:31.593 [error] TypeError: terminated
+    at Fetch.onAborted (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:2042:49)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:92:10)
+    at Object.onError (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:2223:34)
+    at Request.onError (node:internal/deps/undici/undici:2094:31)
+    at Object.errorRequest (node:internal/deps/undici/undici:1591:17)
+    at Socket.<anonymous> (node:internal/deps/undici/undici:6319:16)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)

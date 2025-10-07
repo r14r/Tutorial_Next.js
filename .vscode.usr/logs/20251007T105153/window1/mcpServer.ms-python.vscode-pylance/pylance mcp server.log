@@ -8,3 +8,6 @@
 2025-10-07 11:28:02.827 [info] Error reading from async stream, we will reconnect: TypeError: terminated
 2025-10-07 11:33:08.205 [info] Error reading from async stream, we will reconnect: TypeError: terminated
 2025-10-07 11:38:14.524 [info] Error reading from async stream, we will reconnect: TypeError: terminated
+2025-10-07 11:43:21.327 [info] Error reading from async stream, we will reconnect: TypeError: terminated
+2025-10-07 11:48:27.442 [info] Error reading from async stream, we will reconnect: TypeError: terminated
+2025-10-07 11:53:30.591 [info] Error reading from async stream, we will reconnect: TypeError: terminated

@@ -31,3 +31,17 @@
 2025-10-07 13:25:21.525 [info] Error reading from async stream, we will reconnect: TypeError: terminated
 2025-10-07 13:30:28.136 [info] Error reading from async stream, we will reconnect: TypeError: terminated
 2025-10-07 13:35:34.701 [info] Error reading from async stream, we will reconnect: TypeError: terminated
+2025-10-07 13:38:06.534 [warning] Extension host shut down, server will stop.
+2025-10-07 13:38:06.535 [info] Connection state: Stopped
+2025-10-07 14:01:17.711 [info] Starting server pylance mcp server
+2025-10-07 14:01:17.712 [info] Connection state: Starting
+2025-10-07 14:01:17.713 [info] Starting server from LocalProcess extension host
+2025-10-07 14:01:18.230 [info] Connection state: Running
+2025-10-07 14:01:23.232 [info] Waiting for server to respond to `initialize` request...
+2025-10-07 14:01:28.232 [info] Waiting for server to respond to `initialize` request...
+2025-10-07 14:01:32.737 [info] Connection state: Error Error sending message to http://localhost:4198/stream: TypeError: fetch failed
+2025-10-07 14:10:45.029 [info] Starting server pylance mcp server
+2025-10-07 14:10:45.031 [info] Connection state: Starting
+2025-10-07 14:10:45.037 [info] Starting server from LocalProcess extension host
+2025-10-07 14:10:45.038 [info] Connection state: Running
+2025-10-07 14:10:45.160 [info] Connection state: Error Error sending message to http://localhost:4198/stream: TypeError: fetch failed

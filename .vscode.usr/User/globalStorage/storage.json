@@ -3,7 +3,12 @@
     "telemetry.machineId": "75609ffd2186defa1d63f2a207f4a9708ab693b69bd9ced98a212157ebec6d4b",
     "telemetry.devDeviceId": "77cf6f35-9e76-4223-93a1-02c0ae6b393f",
     "backupWorkspaces": {
-        "workspaces": [],
+        "workspaces": [
+            {
+                "id": "2c32000a3409a094ebb18998a0a46b23",
+                "configURIPath": "file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/app/%5Blocale%5D/Workspace.code-workspace"
+            }
+        ],
         "folders": [
             {
                 "folderUri": "file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website"
@@ -14,7 +19,8 @@
     "windowControlHeight": 35,
     "profileAssociations": {
         "workspaces": {
-            "file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website": "6e52e074"
+            "file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website": "6e52e074",
+            "file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/app/%5Blocale%5D/Workspace.code-workspace": "6e52e074"
         },
         "emptyWindows": {}
     },
@@ -26,14 +32,17 @@
     ],
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website",
-            "backupPath": "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.usr/Backups/6e01137036bee394ab8b9517b82123a5",
+            "workspaceIdentifier": {
+                "id": "2c32000a3409a094ebb18998a0a46b23",
+                "configURIPath": "file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/app/%5Blocale%5D/Workspace.code-workspace"
+            },
+            "backupPath": "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.usr/Backups/2c32000a3409a094ebb18998a0a46b23",
             "uiState": {
                 "mode": 1,
-                "x": 715,
-                "y": 471,
-                "width": 1792,
-                "height": 955
+                "x": 670,
+                "y": 452,
+                "width": 1837,
+                "height": 974
             }
         },
         "openedWindows": []
@@ -62,18 +71,22 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 321,
-            "auxiliaryBarWidth": 813,
+            "sideBarWidth": 582,
+            "auxiliaryBarWidth": 623,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 321,
-            "auxiliaryBarWidth": 813,
+            "sideBarWidth": 582,
+            "auxiliaryBarWidth": 623,
             "workspaces": {
                 "d85205981788e66efec393447f8a4fe7": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "2c32000a3409a094ebb18998a0a46b23": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": true
                 }
@@ -141,10 +154,21 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentWorkspace",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/app/[locale]/Workspace.code-workspace",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/app/[locale]/Workspace (Workspace)"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -193,13 +217,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
@@ -240,17 +262,15 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Workspace"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -288,13 +308,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -648,6 +666,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -724,10 +749,6 @@
                         "label": "E&&xtensions"
                     },
                     {
-                        "id": "workbench.view.extension.test",
-                        "label": "T&&esting"
-                    },
-                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -758,8 +779,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -1096,11 +1116,13 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.terminal.newInNewWindow",
-                        "label": "New Terminal &&Window"
+                        "label": "New Terminal &&Window",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1374,8 +1396,8 @@
                 "userSettingsLabel": "cmd+k f"
             },
             "workbench.action.closeWindow": {
-                "label": "Cmd+W",
-                "userSettingsLabel": "cmd+w"
+                "label": "Shift+Cmd+W",
+                "userSettingsLabel": "shift+cmd+w"
             },
             "undo": {
                 "label": "Cmd+Z",
@@ -1515,6 +1537,11 @@
                 "label": "⌘K ⌃⇧⌥⌘7",
                 "isNative": false,
                 "userSettingsLabel": "cmd+k ctrl+shift+alt+cmd+7"
+            },
+            "workbench.action.splitEditorInGroup": {
+                "label": "⌘K ⌃⌥⌘7",
+                "isNative": false,
+                "userSettingsLabel": "cmd+k ctrl+alt+cmd+7"
             },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "⌘K O",

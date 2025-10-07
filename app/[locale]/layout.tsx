@@ -3,10 +3,6 @@ import { NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
 import HeaderNav from '@/components/HeaderNav';
 import Sidebar from '@/components/Sidebar';
-import { Inter } from 'next/font/google';
-import '../globals.css';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export default async function LocaleLayout({
   children,
@@ -22,18 +18,14 @@ export default async function LocaleLayout({
     notFound();
   }
   return (
-    <html lang={locale}>
-      <body className={inter.className}>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <div className="app-container">
-            <HeaderNav />
-            <div className="content-wrapper">
-              <Sidebar />
-              <main>{children}</main>
-            </div>
-          </div>
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider locale={locale} messages={messages}>
+      <div className="app-container" data-locale={locale}>
+        <HeaderNav />
+        <div className="content-wrapper">
+          <Sidebar />
+          <main>{children}</main>
+        </div>
+      </div>
+    </NextIntlClientProvider>
   );
 }

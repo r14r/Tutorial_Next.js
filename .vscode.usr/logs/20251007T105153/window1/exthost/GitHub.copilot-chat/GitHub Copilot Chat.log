@@ -1153,3 +1153,185 @@
 2025-10-07 13:37:21.943 [info] message 0 returned. finish reason: [stop]
 2025-10-07 13:37:21.944 [info] request done: requestId: [4ba61401-134f-4887-83c0-ac792723ce47] model deployment ID: []
 2025-10-07 13:37:21.944 [info] ccreq:44e7fbe0.copilotmd | success | gpt-4.1 | 1839ms | [panel/editAgent]
+2025-10-07 13:38:13.191 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-07 13:38:13.685 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-07 13:38:13.685 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-07 13:38:13.685 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-07 13:38:18.763 [info] Using the Electron fetcher.
+2025-10-07 13:38:18.767 [error] Error getting a session: Canceled: Canceled
+2025-10-07 13:38:19.550 [info] Logged in as r14r
+2025-10-07 13:38:20.077 [info] Got Copilot token for r14r
+2025-10-07 13:38:20.077 [info] Copilot Chat: 0.32.2025100703, VS Code: 1.105.0-insider
+2025-10-07 13:38:20.097 [info] activationBlocker from 'languageModelAccess' took for 6566ms
+2025-10-07 13:38:20.439 [info] Fetched model metadata in 1192ms 5f4a157b-f174-4347-b834-bb1a339cedca
+2025-10-07 13:38:20.469 [info] Latest entry: ccreq:latest.copilotmd
+2025-10-07 13:38:20.469 [info] ccreq:301ae50b.copilotmd | markdown
+2025-10-07 13:38:20.546 [info] copilot token chat_enabled: true, sku: yearly_subscriber_quota
+2025-10-07 13:38:20.546 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 13:38:20.570 [info] Registering default platform agent...
+2025-10-07 13:38:20.571 [info] activationBlocker from 'conversationFeature' took for 7046ms
+2025-10-07 13:38:20.620 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-10-07 13:38:20.889 [info] Fetched model metadata in 260ms 98572808-57dd-4ed1-af92-83cbe46eb94c
+2025-10-07 13:38:20.892 [info] ccreq:678a64ec.copilotmd | markdown
+2025-10-07 13:38:21.142 [info] Fetched auto model in 248ms.
+2025-10-07 13:38:44.236 [info] message 0 returned. finish reason: [stop]
+2025-10-07 13:38:44.239 [info] request done: requestId: [0ac58c5f-8c82-4ae6-a5fd-86bc97064467] model deployment ID: []
+2025-10-07 13:38:44.750 [info] ccreq:eeab819d.copilotmd | success | copilot-nes-xtab | 1006ms | [XtabProvider]
+2025-10-07 13:38:44.752 [info] ccreq:3492c489.copilotmd | markdown
+2025-10-07 13:38:46.222 [info] message 0 returned. finish reason: [stop]
+2025-10-07 13:38:46.222 [info] request done: requestId: [094c0617-3328-469b-ab04-54153e583b30] model deployment ID: []
+2025-10-07 13:38:46.222 [info] ccreq:ca12e4ca.copilotmd | success | copilot-nes-xtab | 939ms | [XtabProvider]
+2025-10-07 13:38:46.258 [info] ccreq:4a553733.copilotmd | markdown
+2025-10-07 13:38:47.370 [info] message 0 returned. finish reason: [stop]
+2025-10-07 13:38:47.370 [info] request done: requestId: [e6cc6c52-1478-4066-94c3-3a3c90313c03] model deployment ID: []
+2025-10-07 13:38:47.371 [info] ccreq:c3bc997e.copilotmd | success | copilot-nes-xtab | 448ms | [XtabProvider]
+2025-10-07 13:38:47.372 [info] ccreq:28d37562.copilotmd | markdown
+2025-10-07 13:38:47.372 [info] ccreq:6b8e26b1.copilotmd | markdown
+2025-10-07 13:38:48.979 [info] message 0 returned. finish reason: [stop]
+2025-10-07 13:38:48.979 [info] request done: requestId: [1f8ee8c6-f82f-4c3a-9503-8693ac9e7772] model deployment ID: []
+2025-10-07 13:38:48.979 [info] ccreq:4d571bc3.copilotmd | success | copilot-nes-xtab | 843ms | [XtabProvider]
+2025-10-07 13:38:48.980 [info] ccreq:75e439d4.copilotmd | markdown
+2025-10-07 13:38:48.980 [info] ccreq:8e7c0e6e.copilotmd | markdown
+2025-10-07 13:38:48.980 [info] ccreq:2197cc02.copilotmd | markdown
+2025-10-07 13:38:50.621 [info] message 0 returned. finish reason: [stop]
+2025-10-07 13:38:50.621 [info] request done: requestId: [96758b8b-d76f-4b78-8407-568a7e526e38] model deployment ID: []
+2025-10-07 13:38:50.621 [info] ccreq:d7df7737.copilotmd | success | copilot-nes-xtab | 688ms | [XtabProvider]
+2025-10-07 13:38:51.626 [info] ccreq:06c74061.copilotmd | markdown
+2025-10-07 13:41:52.834 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 13:41:52.834 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 13:41:53.124 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 13:41:53.124 [warning] Tool mcp_pylance_mcp_s2_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 13:42:01.136 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 13:42:01.136 [info] request done: requestId: [a9d3e379-71d0-467d-8558-bcbf4681b432] model deployment ID: []
+2025-10-07 13:42:01.137 [info] ccreq:6fb2b07c.copilotmd | success | gpt-4.1 | 8014ms | [panel/editAgent]
+2025-10-07 13:42:03.246 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 13:42:03.246 [warning] Tool mcp_pylance_mcp_s2_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 13:42:05.590 [info] message 0 returned. finish reason: [stop]
+2025-10-07 13:42:05.590 [info] request done: requestId: [a9d3e379-71d0-467d-8558-bcbf4681b432] model deployment ID: []
+2025-10-07 13:42:05.591 [info] ccreq:97128b83.copilotmd | success | gpt-4.1 | 2345ms | [panel/editAgent]
+2025-10-07 13:48:23.508 [info] Fetched model metadata in 647ms 34ccbbe2-8a05-46f2-b6cd-26158439ae93
+2025-10-07 13:48:23.608 [info] ccreq:bb14542a.copilotmd | markdown
+2025-10-07 13:48:25.015 [info] message 0 returned. finish reason: [stop]
+2025-10-07 13:48:25.015 [info] request done: requestId: [9aa220b7-ef01-4f87-a9d1-649f46ed7114] model deployment ID: []
+2025-10-07 13:48:25.016 [info] ccreq:effab4da.copilotmd | success | gpt-4.1 | 768ms | [inline/fix]
+2025-10-07 13:48:25.018 [info] [inline fix] Problems generating edits: No patch sections found [no patch], invalid patches: 0
+2025-10-07 13:48:37.690 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 13:48:37.691 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 13:48:37.872 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 13:48:37.872 [warning] Tool mcp_pylance_mcp_s2_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 13:48:44.714 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 13:48:44.719 [info] request done: requestId: [bda2fc7d-15cd-40ef-a6b8-db34dc20cc53] model deployment ID: []
+2025-10-07 13:48:44.729 [info] ccreq:ac4a684e.copilotmd | success | gpt-4.1 | 6860ms | [panel/editAgent]
+2025-10-07 13:48:53.547 [info] message 0 returned. finish reason: [stop]
+2025-10-07 13:48:53.547 [info] request done: requestId: [e1cd5dc1-69fd-45cd-9050-aebbe4282ecc] model deployment ID: []
+2025-10-07 13:48:53.548 [info] ccreq:dfaa6754.copilotmd | success | gpt-4o-mini | 2048ms | [copilotLanguageModelWrapper]
+2025-10-07 13:48:55.418 [info] message 0 returned. finish reason: [stop]
+2025-10-07 13:48:55.418 [info] request done: requestId: [1b157d11-acc7-4e4d-a253-1e22205bee52] model deployment ID: []
+2025-10-07 13:48:55.419 [info] ccreq:ae5ae8c4.copilotmd | success | gpt-4o-mini | 1468ms | [copilotLanguageModelWrapper]
+2025-10-07 13:49:20.835 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 13:49:20.850 [warning] Tool mcp_pylance_mcp_s2_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 13:49:23.999 [info] message 0 returned. finish reason: [stop]
+2025-10-07 13:49:23.999 [info] request done: requestId: [bda2fc7d-15cd-40ef-a6b8-db34dc20cc53] model deployment ID: []
+2025-10-07 13:49:24.000 [info] ccreq:332ab090.copilotmd | success | gpt-4.1 | 3166ms | [panel/editAgent]
+2025-10-07 13:56:16.937 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 13:56:16.964 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 13:56:18.324 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 13:56:18.324 [warning] Tool mcp_pylance_mcp_s2_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 13:56:25.648 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 13:56:25.648 [info] request done: requestId: [3c250133-fbe9-470e-9972-7a3beb836198] model deployment ID: []
+2025-10-07 13:56:25.653 [info] ccreq:be515401.copilotmd | success | gpt-4.1 | 7328ms | [panel/editAgent]
+2025-10-07 13:56:25.800 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 13:56:25.800 [warning] Tool mcp_pylance_mcp_s2_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 13:56:31.791 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 13:56:31.793 [info] request done: requestId: [3c250133-fbe9-470e-9972-7a3beb836198] model deployment ID: []
+2025-10-07 13:56:31.794 [info] ccreq:633e8d6c.copilotmd | success | gpt-4.1 | 5994ms | [panel/editAgent]
+2025-10-07 13:56:32.147 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 13:56:32.148 [warning] Tool mcp_pylance_mcp_s2_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 13:56:33.937 [info] message 0 returned. finish reason: [tool_calls]
+2025-10-07 13:56:33.937 [info] request done: requestId: [3c250133-fbe9-470e-9972-7a3beb836198] model deployment ID: []
+2025-10-07 13:56:33.938 [info] ccreq:dc1ae6d5.copilotmd | success | gpt-4.1 | 1791ms | [panel/editAgent]
+2025-10-07 13:56:34.051 [warning] Tool mcp_pylance_mcp_s_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 13:56:34.052 [warning] Tool mcp_pylance_mcp_s2_pylanceRunCodeSnippet failed validation: object has unsupported schema keyword 'minimum'
+2025-10-07 13:56:42.134 [info] message 0 returned. finish reason: [stop]
+2025-10-07 13:56:42.134 [info] request done: requestId: [3c250133-fbe9-470e-9972-7a3beb836198] model deployment ID: []
+2025-10-07 13:56:42.135 [info] ccreq:c11d5c7c.copilotmd | success | gpt-4.1 | 8084ms | [panel/editAgent]
+2025-10-07 14:01:12.998 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-10-07 14:01:18.016 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-10-07 14:01:18.016 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-10-07 14:01:18.016 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-10-07 14:01:38.366 [info] Logged in as r14r
+2025-10-07 14:01:38.369 [info] Using the Electron fetcher.
+2025-10-07 14:01:39.121 [info] Got Copilot token for r14r
+2025-10-07 14:01:39.121 [info] Copilot Chat: 0.32.2025100703, VS Code: 1.105.0-insider
+2025-10-07 14:01:39.136 [info] activationBlocker from 'languageModelAccess' took for 20854ms
+2025-10-07 14:01:40.651 [info] Fetched model metadata in 5606ms ca296a0f-afc0-4892-8977-553a410380a5
+2025-10-07 14:01:41.128 [info] Latest entry: ccreq:latest.copilotmd
+2025-10-07 14:01:41.128 [info] ccreq:f351f3b2.copilotmd | markdown
+2025-10-07 14:01:42.592 [info] copilot token chat_enabled: true, sku: yearly_subscriber_quota
+2025-10-07 14:01:42.770 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:01:42.870 [info] Registering default platform agent...
+2025-10-07 14:01:42.872 [info] activationBlocker from 'conversationFeature' took for 24605ms
+2025-10-07 14:01:43.177 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-10-07 14:01:43.345 [info] Fetched model metadata in 178ms d2056f53-27d2-4ce4-a253-9ac0f37fd2d9
+2025-10-07 14:01:43.352 [info] ccreq:a5a9c251.copilotmd | markdown
+2025-10-07 14:01:43.603 [info] Fetched auto model in 250ms.
+2025-10-07 14:04:36.776 [info] message 0 returned. finish reason: [stop]
+2025-10-07 14:04:36.777 [info] request done: requestId: [70ecddd8-7fee-4472-bd43-7abf3ea02a3f] model deployment ID: []
+2025-10-07 14:04:36.780 [info] ccreq:bbe9107f.copilotmd | success | gpt-4o-mini | 1182ms | [title]
+2025-10-07 14:04:41.353 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:04:41.353 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:04:41.368 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:04:41.368 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:04:43.976 [info] ccreq:4b2f1b41.copilotmd | success | gpt-5-codex | 2509ms | [panel/editAgent]
+2025-10-07 14:04:44.029 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:04:44.029 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:04:46.646 [info] ccreq:88467294.copilotmd | success | gpt-5-codex | 2605ms | [panel/editAgent]
+2025-10-07 14:04:46.679 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:04:46.679 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:04:49.114 [info] ccreq:8087aaec.copilotmd | success | gpt-5-codex | 2426ms | [panel/editAgent]
+2025-10-07 14:04:49.220 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:04:49.220 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:04:57.431 [info] ccreq:624f163d.copilotmd | success | gpt-5-codex | 8203ms | [panel/editAgent]
+2025-10-07 14:04:57.486 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:04:57.486 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:05:01.521 [info] ccreq:6e6ee06e.copilotmd | success | gpt-5-codex | 4028ms | [panel/editAgent]
+2025-10-07 14:05:01.553 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:05:01.553 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:07:04.093 [info] ccreq:8d9b92d0.copilotmd | success | gpt-5-codex | 122526ms | [panel/editAgent]
+2025-10-07 14:07:05.879 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:07:05.880 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:07:40.773 [info] ccreq:9802fe7e.copilotmd | success | gpt-5-codex | 34873ms | [panel/editAgent]
+2025-10-07 14:07:44.054 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:07:44.054 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:07:48.839 [info] ccreq:a0a399ae.copilotmd | success | gpt-5-codex | 4761ms | [panel/editAgent]
+2025-10-07 14:07:48.994 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:07:48.994 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:08:44.429 [info] ccreq:81524210.copilotmd | success | gpt-5-codex | 55411ms | [panel/editAgent]
+2025-10-07 14:08:48.537 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:08:48.537 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:09:04.769 [info] ccreq:f2686fc9.copilotmd | success | gpt-5-codex | 15905ms | [panel/editAgent]
+2025-10-07 14:09:07.468 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:09:07.468 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:09:19.127 [info] ccreq:94cefedc.copilotmd | success | gpt-5-codex | 11649ms | [panel/editAgent]
+2025-10-07 14:10:32.835 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:10:32.836 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:10:33.571 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:10:33.572 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:10:42.663 [info] ccreq:34369a97.copilotmd | success | gpt-5-codex | 9077ms | [panel/editAgent]
+2025-10-07 14:10:42.757 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:10:42.757 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:10:49.358 [info] ccreq:e6cd67d5.copilotmd | success | gpt-5-codex | 6570ms | [panel/editAgent]
+2025-10-07 14:10:49.397 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:10:49.397 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:11:01.615 [info] ccreq:2eb6f70d.copilotmd | success | gpt-5-codex | 12204ms | [panel/editAgent]
+2025-10-07 14:11:01.825 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:11:01.825 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:12:24.660 [info] ccreq:d30d1abb.copilotmd | success | gpt-5-codex | 82793ms | [panel/editAgent]
+2025-10-07 14:12:24.949 [info] Fetched model metadata in 281ms 24a4d451-5e54-4bf6-9483-8ee1fd74819b
+2025-10-07 14:12:24.950 [info] ccreq:ab77c219.copilotmd | markdown
+2025-10-07 14:12:24.991 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:12:24.991 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:12:29.573 [info] ccreq:8883054a.copilotmd | success | gpt-5-codex | 4566ms | [panel/editAgent]
+2025-10-07 14:12:31.614 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-10-07 14:12:31.614 [warning] GitHub.vscode-pull-request-github extension API is not available.
+2025-10-07 14:12:37.755 [info] ccreq:f5f34daf.copilotmd | success | gpt-5-codex | 6128ms | [panel/editAgent]

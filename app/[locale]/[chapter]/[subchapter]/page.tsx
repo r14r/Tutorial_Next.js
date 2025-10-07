@@ -1,9 +1,15 @@
 import { notFound } from "next/navigation";
 import { flattenSubchapters, getSubchapter } from "@/lib/chapters";
-import { useTranslations } from 'next-intl';
+import { SUPPORTED_LOCALES } from "@/lib/i18n";
 
 export function generateStaticParams() {
-  return flattenSubchapters();
+  return SUPPORTED_LOCALES.flatMap((locale) =>
+    flattenSubchapters().map(({ chapterSlug, subchapterSlug }) => ({
+      locale,
+      chapter: chapterSlug,
+      subchapter: subchapterSlug,
+    }))
+  );
 }
 
 type PageProps = {
@@ -34,10 +40,6 @@ export default async function SubchapterPage({ params }: PageProps) {
 
   const { subchapter } = result;
   const Content = (await subchapter.load()).default;
-
-  // Example: useTranslations for i18n
-  // const t = useTranslations();
-  // <h1>{t('contentTitle')}</h1>
 
   return (
     <article>

@@ -1,19 +1,19 @@
 import createMDX from '@next/mdx';
+import createNextIntlPlugin from 'next-intl/plugin';
 
 const withMDX = createMDX({
-  extension: /\.mdx?$/,
+  extension: /.mdx?$/,
 });
 
+const withNextIntl = createNextIntlPlugin('./next-intl.config.mjs');
 
-const nextConfig = withMDX({
-  experimental: {
-    mdxRs: true,
-  },
-  pageExtensions: ['ts', 'tsx', 'md', 'mdx'],
-  i18n: {
-    locales: ['de', 'en', 'mr'],
-    defaultLocale: 'de',
-  },
-});
+const nextConfig = withNextIntl(
+  withMDX({
+    experimental: {
+      mdxRs: true,
+    },
+    pageExtensions: ['ts', 'tsx', 'md', 'mdx'],
+  })
+);
 
 export default nextConfig;

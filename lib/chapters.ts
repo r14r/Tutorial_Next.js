@@ -1,4 +1,5 @@
 import type { ComponentType } from "react";
+import { isLocale } from "./i18n";
 
 export type ContentModule = {
   default: ComponentType;
@@ -94,13 +95,20 @@ export const chapters: Chapter[] = chapterConfigs.map(({ basePath, ...chapter })
   })),
 }));
 
-export function getChapterHref(slug: string) {
+export function getChapterHref(slug: string, locale?: string) {
   const chapter = chapters.find((chapter) => chapter.slug === slug);
   if (!chapter) {
+    if (locale && isLocale(locale)) {
+      return `/${locale}`;
+    }
     return "/";
   }
   const firstSubchapter = chapter.subchapters[0];
-  return `/${chapter.slug}/${firstSubchapter.slug}`;
+  const basePath = `/${chapter.slug}/${firstSubchapter.slug}`;
+  if (locale && isLocale(locale)) {
+    return `/${locale}${basePath}`;
+  }
+  return basePath;
 }
 
 export function getSubchapter(chapterSlug: string, subchapterSlug: string) {

@@ -1,0 +1,43 @@
+## Einheit 1.7 — Grundlagen der Arbeit mit LLMs
+
+### 📖 Hintergrund
+
+Large Language Models (LLMs) sind KI-Modelle, die auf Milliarden von Texten trainiert wurden. Sie lernen, das nächste Wort in einem Satz vorherzusagen. Dadurch können sie Texte generieren, Fragen beantworten, zusammenfassen. Typische Modelle: GPT-4, Llama-2, Mistral. Ollama ermöglicht, diese Modelle lokal zu nutzen. Einsatz in KI-Apps: Chatbots, Textzusammenfassungen, Code-Helfer.
+
+### 💻 Code-Beispiele
+
+#### Text-Zusammenfasser mit Ollama
+
+```python
+import streamlit as st
+import requests
+
+st.title("Dokument-Zusammenfassung mit Ollama")
+file = st.file_uploader("Textdatei hochladen", type=["txt"])
+
+if file:
+    text = file.read().decode()
+    prompt = f"Fasse den folgenden Text in 5 Sätzen zusammen:\n\n{text}"
+    response = requests.post("http://localhost:11434/api/generate",
+                             json={"model": "llama2", "prompt": prompt})
+    summary = response.json()["response"]
+    st.subheader("Zusammenfassung")
+    st.write(summary)
+```
+
+### 📝 Übungen
+
+1. Erkläre, warum LLMs nicht immer richtige Antworten geben (Halluzinationen).
+2. Schreibe ein Skript, das eine Frage an Ollama stellt und die Antwort ausgibt.
+
+### ✅ Lösungen
+
+- LLMs basieren auf Wahrscheinlichkeiten und erfinden manchmal plausible, aber falsche Inhalte → „Halluzinationen“.
+
+```python
+import requests
+frage = "Was ist die Hauptstadt von Frankreich?"
+r = requests.post("http://localhost:11434/api/generate",
+                  json={"model": "llama2", "prompt": frage})
+print("Antwort:", r.json()["response"])
+```

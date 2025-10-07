@@ -1,0 +1,34 @@
+2025-10-07 11:12:46.303 [info] (Client) Pylance client (2025.8.3) started with python extension (2025.14.0)
+2025-10-07 11:12:48.311 [info] (77896) Server root directory: file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-07 11:12:48.312 [info] (77896) Pylance language server 2025.8.3 (pyright version 1.1.405, commit d64f3fa0) starting
+2025-10-07 11:12:48.318 [info] (77896) Starting service instance "9-Website" for workspace "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website"
+2025-10-07 11:12:48.407 [info] (77896) Setting environmentName for service "9-Website": "python (3.13.7)"
+2025-10-07 11:12:48.407 [info] (77896) Setting pythonPath for service "9-Website": "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python"
+2025-10-07 11:12:48.407 [info] (77896) No include entries specified; assuming /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website
+2025-10-07 11:12:48.408 [info] (77896) Auto-excluding **/node_modules
+2025-10-07 11:12:48.409 [info] (77896) Auto-excluding **/__pycache__
+2025-10-07 11:12:48.409 [info] (77896) Auto-excluding **/.*
+2025-10-07 11:12:48.468 [info] (77896) Assuming Python version 3.13.7.final.0
+2025-10-07 11:12:48.650 [info] (77896) Settings have not changed. Skipping update.
+2025-10-07 11:12:48.662 [info] (77896) Found 72 source files
+2025-10-07 11:12:48.687 [info] (77896) Starting Mcp server id:4198 ...
+2025-10-07 11:12:49.514 [info] (77896) BG: Priority queue background worker(2) root directory: file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/ms-python.vscode-pylance-2025.8.3/dist
+2025-10-07 11:12:49.515 [info] (77896) BG: Priority queue background worker(2) started
+2025-10-07 11:16:27.207 [info] (77896) Settings have not changed. Skipping update.
+2025-10-07 11:16:33.896 [info] (77896) BG: Indexer background runner(3) root directory: file:///Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/ms-python.vscode-pylance-2025.8.3/dist (index)
+2025-10-07 11:16:33.896 [info] (77896) BG: Indexing(3) started
+2025-10-07 11:16:34.401 [info] (77896) BG: scanned(3) 585 files over 1 exec env
+2025-10-07 11:16:35.959 [info] (77896) BG: indexed(3) 585 files over 1 exec env
+2025-10-07 11:16:36.122 [info] (77896) BG: Indexing finished(3).
+2025-10-07 11:20:53.281 [info] (77896) Settings have not changed. Skipping update.
+2025-10-07 11:21:01.199 [info] (77896) Settings have not changed. Skipping update.
+2025-10-07 11:21:05.814 [info] (77896) Settings have not changed. Skipping update.
+2025-10-07 11:21:13.815 [info] (77896) Settings have not changed. Skipping update.
+2025-10-07 11:24:34.918 [info] (77896) Found 72 source files
+2025-10-07 11:24:37.933 [info] (77896) Found 72 source files
+2025-10-07 11:24:40.916 [info] (77896) Found 72 source files
+2025-10-07 11:24:44.061 [info] (77896) Found 72 source files
+2025-10-07 11:30:36.579 [info] (77896) Settings have not changed. Skipping update.
+2025-10-07 11:31:41.285 [info] (77896) Settings have not changed. Skipping update.
+2025-10-07 11:31:52.814 [info] (77896) Settings have not changed. Skipping update.
+2025-10-07 11:32:09.406 [info] (77896) Settings have not changed. Skipping update.

@@ -1,0 +1,48 @@
+{
+  "environment": {
+    "executable": "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python",
+    "prefix": "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python",
+    "version": "3.13.7.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python",
+      "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python3",
+      "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python3.13"
+    ]
+  },
+  "symlinks": [
+    [
+      "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python",
+      {
+        "secs_since_epoch": 1755403788,
+        "nanos_since_epoch": 884652548
+      },
+      {
+        "secs_since_epoch": 1755403788,
+        "nanos_since_epoch": 884578975
+      }
+    ],
+    [
+      "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python3",
+      {
+        "secs_since_epoch": 1755403788,
+        "nanos_since_epoch": 884652548
+      },
+      {
+        "secs_since_epoch": 1755403788,
+        "nanos_since_epoch": 884578975
+      }
+    ],
+    [
+      "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python3.13",
+      {
+        "secs_since_epoch": 1755403788,
+        "nanos_since_epoch": 884652548
+      },
+      {
+        "secs_since_epoch": 1755403788,
+        "nanos_since_epoch": 884578975
+      }
+    ]
+  ]
+}

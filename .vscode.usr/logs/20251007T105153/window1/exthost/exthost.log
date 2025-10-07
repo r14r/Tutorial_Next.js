@@ -1,0 +1,143 @@
+2025-10-07 10:51:56.697 [info] Extension host with pid 75497 started
+2025-10-07 10:51:56.697 [info] Skipping acquiring lock for /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.usr/User/workspaceStorage/d85205981788e66efec393447f8a4fe7.
+2025-10-07 10:51:56.784 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-07 10:51:56.814 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-07 10:51:56.972 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-10-07 10:51:56.974 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-10-07 10:51:57.012 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-07 10:51:57.185 [info] Eager extensions activated
+2025-10-07 10:51:57.207 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-07 10:51:57.210 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-07 10:52:02.092 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-10-07 10:52:02.100 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-10-07 10:52:02.112 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-10-07 10:52:04.457 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-10-07 10:52:51.968 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-07 10:53:18.546 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-10-07 10:53:19.259 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-10-07 10:53:21.383 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-10-07 10:53:21.437 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-10-07 10:53:23.033 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at sqt.$registerAgent (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:509:5906)
+2025-10-07 10:53:26.631 [warning] [Decorations] CAPPING events from decorations provider vscode.git 313
+2025-10-07 10:56:22.292 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-10-07 11:01:43.607 [warning] [Decorations] CAPPING events from decorations provider vscode.git 253
+2025-10-07 11:01:48.645 [warning] [Decorations] CAPPING events from decorations provider vscode.git 253
+2025-10-07 11:01:53.686 [warning] [Decorations] CAPPING events from decorations provider vscode.git 253
+2025-10-07 11:01:58.738 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2025-10-07 11:02:03.770 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2025-10-07 11:02:08.833 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2025-10-07 11:02:14.083 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2025-10-07 11:02:19.124 [warning] [Decorations] CAPPING events from decorations provider vscode.git 254
+2025-10-07 11:02:24.164 [warning] [Decorations] CAPPING events from decorations provider vscode.git 251
+2025-10-07 11:02:30.441 [warning] [Decorations] CAPPING events from decorations provider vscode.git 251
+2025-10-07 11:02:35.475 [warning] [Decorations] CAPPING events from decorations provider vscode.git 251
+2025-10-07 11:02:40.506 [warning] [Decorations] CAPPING events from decorations provider vscode.git 256
+2025-10-07 11:02:45.578 [warning] [Decorations] CAPPING events from decorations provider vscode.git 260
+2025-10-07 11:02:50.615 [warning] [Decorations] CAPPING events from decorations provider vscode.git 260
+2025-10-07 11:02:55.657 [warning] [Decorations] CAPPING events from decorations provider vscode.git 260
+2025-10-07 11:03:00.695 [warning] [Decorations] CAPPING events from decorations provider vscode.git 260
+2025-10-07 11:03:13.520 [warning] [Decorations] CAPPING events from decorations provider vscode.git 260
+2025-10-07 11:03:18.558 [warning] [Decorations] CAPPING events from decorations provider vscode.git 260
+2025-10-07 11:04:12.372 [warning] [Decorations] CAPPING events from decorations provider vscode.git 260
+2025-10-07 11:04:17.402 [warning] [Decorations] CAPPING events from decorations provider vscode.git 260
+2025-10-07 11:04:45.441 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-10-07 11:05:14.106 [warning] [Decorations] CAPPING events from decorations provider vscode.git 289
+2025-10-07 11:05:19.154 [warning] [Decorations] CAPPING events from decorations provider vscode.git 295
+2025-10-07 11:06:04.195 [warning] [Decorations] CAPPING events from decorations provider vscode.git 327
+2025-10-07 11:06:09.253 [warning] [Decorations] CAPPING events from decorations provider vscode.git 327
+2025-10-07 11:06:17.530 [warning] [Decorations] CAPPING events from decorations provider vscode.git 327
+2025-10-07 11:06:24.568 [warning] [Decorations] CAPPING events from decorations provider vscode.git 327
+2025-10-07 11:06:29.613 [warning] [Decorations] CAPPING events from decorations provider vscode.git 328
+2025-10-07 11:06:34.778 [warning] [Decorations] CAPPING events from decorations provider vscode.git 328
+2025-10-07 11:06:56.906 [warning] [Decorations] CAPPING events from decorations provider vscode.git 327
+2025-10-07 11:07:32.275 [warning] [Decorations] CAPPING events from decorations provider vscode.git 327
+2025-10-07 11:07:37.323 [warning] [Decorations] CAPPING events from decorations provider vscode.git 328
+2025-10-07 11:07:42.410 [warning] [Decorations] CAPPING events from decorations provider vscode.git 350
+2025-10-07 11:08:37.064 [warning] [Decorations] CAPPING events from decorations provider vscode.git 352
+2025-10-07 11:08:42.102 [warning] [Decorations] CAPPING events from decorations provider vscode.git 352
+2025-10-07 11:08:49.141 [warning] [Decorations] CAPPING events from decorations provider vscode.git 352
+2025-10-07 11:10:41.165 [warning] [Decorations] CAPPING events from decorations provider vscode.git 352
+2025-10-07 11:10:46.208 [warning] [Decorations] CAPPING events from decorations provider vscode.git 353
+2025-10-07 11:10:51.256 [warning] [Decorations] CAPPING events from decorations provider vscode.git 353
+2025-10-07 11:10:56.297 [warning] [Decorations] CAPPING events from decorations provider vscode.git 353
+2025-10-07 11:11:29.492 [warning] [Decorations] CAPPING events from decorations provider vscode.git 353
+2025-10-07 11:11:34.531 [warning] [Decorations] CAPPING events from decorations provider vscode.git 353
+2025-10-07 11:11:39.586 [warning] [Decorations] CAPPING events from decorations provider vscode.git 353
+2025-10-07 11:11:53.343 [warning] [Decorations] CAPPING events from decorations provider vscode.git 353
+2025-10-07 11:11:58.376 [warning] [Decorations] CAPPING events from decorations provider vscode.git 354
+2025-10-07 11:12:03.450 [warning] [Decorations] CAPPING events from decorations provider vscode.git 355
+2025-10-07 11:12:08.499 [warning] [Decorations] CAPPING events from decorations provider vscode.git 354
+2025-10-07 11:12:13.543 [warning] [Decorations] CAPPING events from decorations provider vscode.git 355
+2025-10-07 11:12:18.584 [warning] [Decorations] CAPPING events from decorations provider vscode.git 356
+2025-10-07 11:12:23.652 [warning] [Decorations] CAPPING events from decorations provider vscode.git 377
+2025-10-07 11:12:39.487 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onWalkthrough:pythonWelcome'
+2025-10-07 11:12:39.824 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2025-10-07 11:12:39.988 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-10-07 11:12:41.106 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-10-07 11:12:42.161 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-10-07 11:12:45.151 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10258
+2025-10-07 11:12:48.392 [warning] DiagnosticCollection with name 'pylance' does already exist.
+2025-10-07 11:12:48.615 [warning] DiagnosticCollection with name 'pylance' does already exist.
+2025-10-07 11:12:48.653 [warning] DiagnosticCollection with name 'pylance' does already exist.
+2025-10-07 11:17:54.532 [error] TypeError: terminated
+    at Fetch.onAborted (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:2042:49)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:92:10)
+    at Object.onError (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:2223:34)
+    at Request.onError (node:internal/deps/undici/undici:2094:31)
+    at Object.errorRequest (node:internal/deps/undici/undici:1591:17)
+    at Socket.<anonymous> (node:internal/deps/undici/undici:6319:16)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-10-07 11:20:53.283 [warning] DiagnosticCollection with name 'pylance' does already exist.
+2025-10-07 11:21:05.815 [warning] DiagnosticCollection with name 'pylance' does already exist.
+2025-10-07 11:22:59.260 [error] TypeError: terminated
+    at Fetch.onAborted (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:2042:49)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:92:10)
+    at Object.onError (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:2223:34)
+    at Request.onError (node:internal/deps/undici/undici:2094:31)
+    at Object.errorRequest (node:internal/deps/undici/undici:1591:17)
+    at Socket.<anonymous> (node:internal/deps/undici/undici:6319:16)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-10-07 11:28:03.829 [error] TypeError: terminated
+    at Fetch.onAborted (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:2042:49)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:92:10)
+    at Object.onError (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:2223:34)
+    at Request.onError (node:internal/deps/undici/undici:2094:31)
+    at Object.errorRequest (node:internal/deps/undici/undici:1591:17)
+    at Socket.<anonymous> (node:internal/deps/undici/undici:6319:16)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-10-07 11:30:36.581 [warning] DiagnosticCollection with name 'pylance' does already exist.
+2025-10-07 11:31:52.814 [warning] DiagnosticCollection with name 'pylance' does already exist.
+2025-10-07 11:33:09.210 [error] TypeError: terminated
+    at Fetch.onAborted (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:2042:49)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:92:10)
+    at Object.onError (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:2223:34)
+    at Request.onError (node:internal/deps/undici/undici:2094:31)
+    at Object.errorRequest (node:internal/deps/undici/undici:1591:17)
+    at Socket.<anonymous> (node:internal/deps/undici/undici:6319:16)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-10-07 11:37:22.053 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10011
+2025-10-07 11:38:15.524 [error] TypeError: terminated
+    at Fetch.onAborted (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:2042:49)
+    at Fetch.emit (node:events:519:28)
+    at Fetch.terminate (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:92:10)
+    at Object.onError (/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/node_modules/undici/lib/web/fetch/index.js:2223:34)
+    at Request.onError (node:internal/deps/undici/undici:2094:31)
+    at Object.errorRequest (node:internal/deps/undici/undici:1591:17)
+    at Socket.<anonymous> (node:internal/deps/undici/undici:6319:16)
+    at Socket.emit (node:events:531:35)
+    at TCP.<anonymous> (node:net:346:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-10-07 11:38:32.687 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001

@@ -1,0 +1,13 @@
+## Einheit 4.3 — KI-Dashboards mit Streamlit
+
+### Beispiele
+
+#### Beispiel 1 — Balkendiagramm
+
+```python
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots()
+df["Sales"].plot(kind="bar", ax=ax)
+st.pyplot(fig)
+```

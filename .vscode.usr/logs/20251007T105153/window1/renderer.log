@@ -1,0 +1,104 @@
+2025-10-07 10:51:55.369 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-10-07 10:51:55.650 [info] Started local extension host with pid 75497.
+2025-10-07 10:51:57.337 [info] MCP Registry configured: https://api.mcp.github.com
+2025-10-07 10:51:57.713 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-07 10:51:59.002 [info] [perf] Render performance baseline is 27ms
+2025-10-07 10:53:13.642 [error] Failed to fetch MCP registry providers Server returned 404
+2025-10-07 10:53:18.011 [warning] [GitHub.copilot]: Cannot register 'github.copilot.advanced'. This property is already registered.
+2025-10-07 10:53:19.260 [error] [Extension Host] (node:75497) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `Code - Insiders Helper (Plugin) --trace-warnings ...` to show where the warning was created)
+2025-10-07 10:53:23.034 [error] chatParticipant must be declared in package.json: claude-code
+2025-10-07 10:54:03.130 [error] [Extension Host] [AsyncCompletionManager] [d0c52f7d-3e51-4ea7-93d3-22978be7cbe5] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/lib/src/networking.ts:105:19
+    at Yie.invoke (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at _U.cancel (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Jie.cancel (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Al.cancelRequest (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Al.getFirstMatchingRequest (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/lib/src/inlineCompletion.ts:92:20)
+    at pte.provideInlineCompletionItems (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/extension/src/ghostText/ghostText.ts:47:32)
+    at Kve.provideInlineCompletionItems (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/extension/src/inlineCompletion.ts:93:25)
+    at da.provideInlineCompletions (file:///Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:145872) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-07 10:54:03.310 [error] [Extension Host] [AsyncCompletionManager] [f01922b6-73bd-461c-9b9a-d8d08dbf35eb] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/lib/src/networking.ts:105:19
+    at Yie.invoke (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at _U.cancel (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Jie.cancel (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Al.cancelRequest (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Al.getFirstMatchingRequest (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/lib/src/ghostText/ghostText.ts:955:22
+    at getGhostText (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/lib/src/ghostText/ghostText.ts:1101:16)
+    at getInlineCompletionsResult (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/lib/src/inlineCompletion.ts:92:20)
+    at pte.provideInlineCompletionItems (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/extension/src/ghostText/ghostText.ts:47:32)
+    at Kve.provideInlineCompletionItems (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-1.378.1797/extension/src/inlineCompletion.ts:93:25)
+    at da.provideInlineCompletions (file:///Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:145872) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-10-07 11:03:52.849 [error] [LanguageModelToolsService#invokeTool] Error from tool copilot_listDirectory with parameters {"path":"/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/content/2-Arbeiten-mit-LLMs-und-Prompt-Engineering/units"}:
+Error: ENOENT: no such file or directory, scandir '/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/content/2-Arbeiten-mit-LLMs-und-Prompt-Engineering/units': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, scandir '/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/content/2-Arbeiten-mit-LLMs-und-Prompt-Engineering/units'
+    at ws.e (file:///Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:18064)
+    at Object.readDirectory (file:///Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:16201)
+    at ene.invoke (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-chat-0.32.2025100703/dist/extension.js:2047:7666)
+    at Vq.$invokeTool (file:///Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:183:3195)
+2025-10-07 11:03:52.872 [error] [LanguageModelToolsService#invokeTool] Error from tool copilot_listDirectory with parameters {"path":"/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/content/3-Datenverarbeitung-und-KI-Anwendungen/units"}:
+Error: ENOENT: no such file or directory, scandir '/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/content/3-Datenverarbeitung-und-KI-Anwendungen/units': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, scandir '/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/content/3-Datenverarbeitung-und-KI-Anwendungen/units'
+    at ws.e (file:///Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:18064)
+    at Object.readDirectory (file:///Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:16201)
+    at ene.invoke (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-chat-0.32.2025100703/dist/extension.js:2047:7666)
+    at Vq.$invokeTool (file:///Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:183:3195)
+2025-10-07 11:03:52.896 [error] [LanguageModelToolsService#invokeTool] Error from tool copilot_listDirectory with parameters {"path":"/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/content/4-Fortgeschrittene-Anwendungen-mit-LLMs-und-Daten/units"}:
+Error: ENOENT: no such file or directory, scandir '/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/content/4-Fortgeschrittene-Anwendungen-mit-LLMs-und-Daten/units': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, scandir '/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/content/4-Fortgeschrittene-Anwendungen-mit-LLMs-und-Daten/units'
+    at ws.e (file:///Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:18064)
+    at Object.readDirectory (file:///Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:16201)
+    at ene.invoke (/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.ext/github.copilot-chat-0.32.2025100703/dist/extension.js:2047:7666)
+    at Vq.$invokeTool (file:///Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:183:3195)
+2025-10-07 11:04:45.442 [error] [Extension Host] (node:75497) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2025-10-07 11:12:22.820 [error] Cancelled: Canceled: Canceled
+    at BJe.O (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:36572)
+    at async BJe.N (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:35301)
+    at async BJe.D (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:24301)
+    at async vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:23772
+    at async Promise.all (index 0)
+    at async BJe.C (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:23723)
+    at async BJe.getExtensions (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1352:22380)
+    at async Hht.getExtensions (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2485:15150)
+    at async kqs.Rc (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2481:17026)
+    at async kqs.$c (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2481:19670)
+2025-10-07 11:17:54.533 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 11:19:34.609 [error] Error: Unable to read file '/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.v' (Unknown (FileSystemError): An unknown error occurred. Please consult the log for more details.)
+    at P1t.G (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3773:65941)
+    at Object.error (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3773:66087)
+    at Object.onError (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:30:91231)
+    at vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:30:90403
+    at vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:30:88839
+    at Array.forEach (<anonymous>)
+    at cHi.h (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:30:88828)
+    at cHi.error (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:30:88589)
+    at Bae.value (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:3773:76401)
+    at E.C (vscode-file://vscode-app/Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:29:2392)
+2025-10-07 11:22:59.262 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 11:28:03.881 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 11:33:09.211 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 11:38:15.525 [error] An unknown error occurred. Please consult the log for more details.

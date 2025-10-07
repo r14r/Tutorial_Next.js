@@ -1,0 +1,11 @@
+## Einheit 4.2 — Q&A über CSV-Dateien
+
+### Beispiele
+
+#### Beispiel 1 — Einfache Abfrage
+
+```python
+frage = "Wie viele Kunden sind älter als 30?"
+antwort = len(df[df["Alter"] > 30])
+print(antwort)
+```

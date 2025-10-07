@@ -1,0 +1,9 @@
+## Einheit 2.7 — Vergleich verschiedener Modelle
+
+### Hintergrund
+
+Ollama unterstützt mehrere Modelle. Jedes hat Stärken & Schwächen:
+
+- **Llama2:** allgemeines Sprachmodell
+- **Mistral:** schnell & kompakt
+- **Codellama:** spezialisiert auf Programmierung

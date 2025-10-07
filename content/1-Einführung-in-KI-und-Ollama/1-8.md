@@ -1,0 +1,40 @@
+## Einheit 1.8 — Prompt Engineering Grundlagen
+
+### 📖 Hintergrund
+
+Prompt Engineering = die Kunst, gute Eingaben für ein Sprachmodell zu formulieren. Unterschiedliche Formulierungen führen zu anderen Ergebnissen. Ein guter Prompt enthält:
+
+- klare Anweisung
+- Kontext
+- gewünschtes Format
+
+Beispiel: „Fasse den Text zusammen“ vs. „Fasse den Text in 3 Bullet Points zusammen“.
+
+### 💻 Code-Beispiele
+
+#### Prompt Playground in Streamlit
+
+```python
+import streamlit as st
+import requests
+
+st.title("Prompt Playground")
+prompt = st.text_area("Prompt eingeben", height=150)
+
+if st.button("Abschicken") and prompt:
+    response = requests.post("http://localhost:11434/api/generate",
+                             json={"model": "llama2", "prompt": prompt})
+    st.subheader("Antwort")
+    st.write(response.json()["response"])
+```
+
+### 📝 Übungen
+
+1. Erstelle drei verschiedene Prompts, die denselben Text zusammenfassen, aber mit unterschiedlichem Stil (kurz, ausführlich, Bulletpoints).
+2. Teste mit Ollama, wie sich die Ergebnisse unterscheiden.
+
+### ✅ Lösungen
+
+- Prompt 1: „Fasse diesen Artikel in 1 Satz zusammen.“
+- Prompt 2: „Schreibe eine detaillierte Zusammenfassung in 5 Sätzen.“
+- Prompt 3: „Fasse den Artikel in Bulletpoints zusammen.“

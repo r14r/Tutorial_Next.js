@@ -1,0 +1,5 @@
+## Einheit 3.4 — Schlüsselwort-Extraktion
+
+### Hintergrund
+
+Schlüsselwörter sind wichtig für Suchmaschinen, Zusammenfassungen und Daten-Tagging. LLMs können automatisch die wichtigsten Begriffe herausziehen.

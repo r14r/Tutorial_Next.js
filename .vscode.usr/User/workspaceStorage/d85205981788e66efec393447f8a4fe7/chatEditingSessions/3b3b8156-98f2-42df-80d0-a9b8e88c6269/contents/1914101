@@ -1,0 +1,53 @@
+## Einheit 1.4 — Ollama API mit der Kommandozeile (cURL)
+
+### 📖 Hintergrund
+
+Ollama läuft standardmäßig auf Port 11434 und bietet eine REST-API. Mit `curl` lassen sich Requests direkt aus der Shell stellen – ideal zum Testen.
+
+### 💻 Beispiele
+
+```sh
+# 1. Gesundheitscheck
+curl http://localhost:11434
+
+# 2. Einfacher Chat mit llama2
+curl http://localhost:11434/api/generate -d '{
+  "model": "llama2",
+  "prompt": "Nenne drei Programmiersprachen"
+}'
+```
+
+Antwort-Beispiel (JSON):
+
+```json
+{"response": "Python, Java, C++"}
+```
+
+#### Chat-API Beispiel
+
+```sh
+curl http://localhost:11434/api/chat -d '{
+  "model": "llama2",
+  "messages": [{"role": "user", "content": "Erkläre maschinelles Lernen in einfachen Worten."}]
+}'
+```
+
+### 📝 Übungen
+
+1. Nutze curl, um eine Liste aller Modelle von der API abzurufen (`/api/tags`).
+2. Sende mit curl einen Prompt: „Schreibe ein Gedicht über Programmierer.“
+
+### ✅ Lösungen
+
+```sh
+# 1. Modell-Liste
+curl http://localhost:11434/api/tags
+
+# 2. Gedicht
+curl http://localhost:11434/api/generate -d '{
+  "model": "llama2",
+  "prompt": "Schreibe ein Gedicht über Programmierer."
+}'
+```
+
+---

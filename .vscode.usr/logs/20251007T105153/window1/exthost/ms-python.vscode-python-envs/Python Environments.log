@@ -328,3 +328,27 @@
 2025-10-07 11:51:41.829 [info] Resolved Python Environment /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python
 2025-10-07 11:51:41.842 [info] Python API: Changed environment from python (3.13.7) to python (3.13.7) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website
 2025-10-07 11:51:41.842 [info] Internal: Changed environment from python (3.13.7) to python (3.13.7) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website
+2025-10-07 11:58:12.003 [info] Locator GlobalVirtualEnvs took 221ns
+2025-10-07 11:58:12.003 [info] Locator Locators took 1.131µs
+2025-10-07 11:58:12.003 [info] Locator Path took 240ns
+2025-10-07 11:58:12.003 [info] Locator Workspaces took 1.523954ms
+2025-10-07 11:58:12.004 [info] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":1,"breakdown":{"GlobalVirtualEnvs":0,"Locators":0,"Path":0,"Workspaces":1},"locators":{}}}}
+2025-10-07 11:58:12.026 [info] Resolved Python Environment /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python
+2025-10-07 11:58:12.033 [info] Python API: Changed environment from python (3.13.7) to python (3.13.7) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website
+2025-10-07 11:58:12.033 [info] Internal: Changed environment from python (3.13.7) to python (3.13.7) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website
+2025-10-07 12:01:26.231 [info] Locator GlobalVirtualEnvs took 237ns
+2025-10-07 12:01:26.231 [info] Locator Locators took 846ns
+2025-10-07 12:01:26.231 [info] Locator Path took 252ns
+2025-10-07 12:01:26.231 [info] Locator Workspaces took 1.775346ms
+2025-10-07 12:01:26.232 [info] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":1,"breakdown":{"GlobalVirtualEnvs":0,"Locators":0,"Path":0,"Workspaces":1},"locators":{}}}}
+2025-10-07 12:01:26.237 [info] Resolved Python Environment /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python
+2025-10-07 12:01:26.242 [info] Python API: Changed environment from python (3.13.7) to python (3.13.7) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website
+2025-10-07 12:01:26.242 [info] Internal: Changed environment from python (3.13.7) to python (3.13.7) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website
+2025-10-07 13:35:02.938 [info] Locator GlobalVirtualEnvs took 237ns
+2025-10-07 13:35:02.939 [info] Locator Locators took 746ns
+2025-10-07 13:35:02.939 [info] Locator Path took 345ns
+2025-10-07 13:35:02.939 [info] Locator Workspaces took 2.47548ms
+2025-10-07 13:35:02.940 [info] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":2,"breakdown":{"GlobalVirtualEnvs":0,"Locators":0,"Path":0,"Workspaces":2},"locators":{}}}}
+2025-10-07 13:35:02.968 [info] Resolved Python Environment /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/.venv/python/bin/python
+2025-10-07 13:35:02.972 [info] Python API: Changed environment from python (3.13.7) to python (3.13.7) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website
+2025-10-07 13:35:02.972 [info] Internal: Changed environment from python (3.13.7) to python (3.13.7) for: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website

@@ -138,3 +138,29 @@ Failed to run uv pip install --python /Users/Shared/CLOUD/Programmier-Workshops/
 2025-10-07 11:48:30.068 [error] [File Watcher ('parcel')] Events were dropped by the FSEvents client. File system must be re-scanned. (path: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website)
 2025-10-07 11:48:30.783 [error] [File Watcher ('parcel')] Events were dropped by the FSEvents client. File system must be re-scanned. (path: /Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website)
 2025-10-07 11:53:31.593 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 11:58:35.253 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 12:01:25.678 [error] Unknown (FileSystemError): Error: Unknown system error -102: Unknown system error -102, open '/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.v'
+    at v7.create (file:///Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/main.js:38:29705)
+    at Qi (file:///Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/main.js:38:26959)
+    at _c.jb (file:///Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/main.js:62:22448)
+    at _c.readFile (file:///Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/main.js:62:17105)
+    at async y4.m (file:///Users/Shared/VSCode/Base/VSCode.app/Contents/Resources/app/out/main.js:62:23961)
+2025-10-07 12:03:40.769 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 12:08:46.274 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 12:13:52.872 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 12:18:58.801 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 12:24:04.652 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 12:29:11.127 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 12:34:17.998 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 12:39:25.067 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 12:44:31.301 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 12:49:37.260 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 12:54:44.400 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 12:59:50.837 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 13:04:57.315 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 13:10:03.546 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 13:15:09.710 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 13:20:16.468 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 13:25:22.560 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 13:30:29.091 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-07 13:35:35.703 [error] An unknown error occurred. Please consult the log for more details.

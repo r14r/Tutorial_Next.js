@@ -7,7 +7,7 @@ export type ContentModule = {
 type Subchapter = {
   slug: string;
   title: string;
-  import: () => Promise<ContentModule>;
+  load: () => Promise<ContentModule>;
 };
 
 type Chapter = {
@@ -26,12 +26,12 @@ export const chapters: Chapter[] = [
       {
         slug: "introduction",
         title: "Introduction",
-        import: () => import("@/content/getting-started/introduction.mdx"),
+        load: () => import("@/content/getting-started/introduction.mdx"),
       },
       {
         slug: "project-setup",
         title: "Project Setup",
-        import: () => import("@/content/getting-started/project-setup.md"),
+        load: () => import("@/content/getting-started/project-setup.md"),
       },
     ],
   },
@@ -43,12 +43,12 @@ export const chapters: Chapter[] = [
       {
         slug: "app-router",
         title: "App Router",
-        import: () => import("@/content/core-concepts/app-router.mdx"),
+        load: () => import("@/content/core-concepts/app-router.mdx"),
       },
       {
         slug: "data-fetching",
         title: "Data Fetching",
-        import: () => import("@/content/core-concepts/data-fetching.md"),
+        load: () => import("@/content/core-concepts/data-fetching.md"),
       },
     ],
   },

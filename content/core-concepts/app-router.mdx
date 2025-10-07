@@ -1,0 +1,12 @@
+# App Router Overview
+
+The **App Router** embraces React Server Components, layouts, and nested routing in a way that feels natural. Each folder inside `app/` becomes part of the URL, while `layout.tsx` files let you compose persistent UI like the navigation used in this tutorial.
+
+```tsx
+// app/example/page.tsx
+export default function ExamplePage() {
+  return <h1>Hello from the App Router!</h1>;
+}
+```
+
+Layouts can fetch data, stream UI, and share loading states across entire sections of your site. They are the foundation for rich application shells.

@@ -1,15 +1,15 @@
 # Tag 1 — Einführung in KI & Ollama Grundlagen
 
-## Einheiten-Index
+## en-Index
 
-- [Einheit 1.1 — Was ist Künstliche Intelligenz (KI)?](./units/einheit-1-1.md)
-- [Einheit 1.2 — Einstieg in Ollama](./units/einheit-1-2.md)
-- [Einheit 1.3 — Ollama in der Kommandozeile (CLI)](./units/einheit-1-3.md)
-- [Einheit 1.4 — Ollama API mit der Kommandozeile (cURL)](./units/einheit-1-4.md)
-- [Einheit 1.5 — Zugriff über die API mit Python (Requests)](./units/einheit-1-5.md)
-- [Einheit 1.6 — Nutzung der Ollama SDKs](./units/einheit-1-6.md)
-- [Einheit 1.7 — Grundlagen der Arbeit mit LLMs](./units/einheit-1-7.md)
-- [Einheit 1.8 — Prompt Engineering Grundlagen](./units/einheit-1-8.md)
+- [1.1 — Was ist Künstliche Intelligenz (KI)?](./units/einheit-1-1.md)
+- [1.2 — Einstieg in Ollama](./units/einheit-1-2.md)
+- [1.3 — Ollama in der Kommandozeile (CLI)](./units/einheit-1-3.md)
+- [1.4 — Ollama API mit der Kommandozeile (cURL)](./units/einheit-1-4.md)
+- [1.5 — Zugriff über die API mit Python (Requests)](./units/einheit-1-5.md)
+- [1.6 — Nutzung der Ollama SDKs](./units/einheit-1-6.md)
+- [1.7 — Grundlagen der Arbeit mit LLMs](./units/einheit-1-7.md)
+- [1.8 — Prompt Engineering Grundlagen](./units/einheit-1-8.md)
 
 ### 📖 Hintergrund
 
@@ -71,7 +71,7 @@ Antwortbeispiel:
 
 ---
 
-## Einheit 1.4 — Ollama API mit der Kommandozeile (cURL)
+## 1.4 — Ollama API mit der Kommandozeile (cURL)
 
 ### 📖 Hintergrund
 
@@ -125,7 +125,7 @@ curl http://localhost:11434/api/generate -d '{
 
 ---
 
-## Einheit 1.5 — Zugriff über die API mit Python (Requests)
+## 1.5 — Zugriff über die API mit Python (Requests)
 
 ### 📖 Hintergrund
 
@@ -192,7 +192,7 @@ print(chat("Was ist Python?"))
 
 ---
 
-## Einheit 1.6 — Nutzung der Ollama SDKs
+## 1.6 — Nutzung der Ollama SDKs
 
 ### 📖 Hintergrund
 
@@ -271,7 +271,7 @@ while True:
 
 ---
 
-## Einheit 1.7 — Grundlagen der Arbeit mit LLMs
+## 1.7 — Grundlagen der Arbeit mit LLMs
 
 ### 📖 Hintergrund
 
@@ -317,7 +317,7 @@ print("Antwort:", r.json()["response"])
 
 ---
 
-## Einheit 1.8 — Prompt Engineering Grundlagen
+## 1.8 — Prompt Engineering Grundlagen
 
 ### 📖 Hintergrund
 

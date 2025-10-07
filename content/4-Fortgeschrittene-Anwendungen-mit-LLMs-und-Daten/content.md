@@ -4,26 +4,26 @@
 
 ### Übersicht
 
-Der Tag vertieft fortgeschrittene Anwendungen mit LLMs und Datenintegration. Jede Einheit enthält kurze Erklärungen, praktische Beispiele und Übungen.
+Der Tag vertieft fortgeschrittene Anwendungen mit LLMs und Datenintegration. Jede enthält kurze Erklärungen, praktische Beispiele und Übungen.
 
 ---
 
 ### Zeitplan
 
-| Zeit              | Einheit / Inhalt                                                                                   | Dauer   |
+| Zeit              | / Inhalt                                                                                   | Dauer   |
 |-------------------|----------------------------------------------------------------------------------------------------|---------|
 | **09:00 – 09:20** | Einführung & Überblick  
   Motivation, Ziele des Tages                                                       | 20 min  |
-| **09:20 – 10:05** | **Einheit 4.1:** Datenintegration mit Pandas  
+| **09:20 – 10:05** | **4.1:** Datenintegration mit Pandas  
   CSV/Excel laden, filtern, LLM-Integration                                         | 45 min  |
-| **10:05 – 10:35** | **Einheit 4.2:** Q&A über CSV-Dateien  
+| **10:05 – 10:35** | **4.2:** Q&A über CSV-Dateien  
   Abfragen, LLM-Antworten, Streamlit-App                                            | 30 min  |
-| **10:35 – 11:15** | **Einheit 4.3:** KI-Dashboards mit Streamlit  
+| **10:35 – 11:15** | **4.3:** KI-Dashboards mit Streamlit  
   Diagramme, LLM-Kommentare, Gruppenvergleich                                       | 40 min  |
 | **11:15 – 11:30** | ☕ **Pause**                                                                                        | 15 min  |
-| **11:30 – 12:10** | **Einheit 4.4:** Deployment  
+| **11:30 – 12:10** | **4.4:** Deployment  
   App starten, requirements.txt, Docker, Streamlit Cloud                            | 40 min  |
-| **12:10 – 12:40** | **Einheit 4.5:** Bonus: Q&A über mehrere Datenquellen  
+| **12:10 – 12:40** | **4.5:** Bonus: Q&A über mehrere Datenquellen  
   CSV + FAQ/Text, kombinierte Analyse                                               | 30 min  |
 | **12:40 – 13:10** | Übungen & Praxis  
   Eigene Datenquellen, Mini-Projekt starten                                         | 30 min  |
@@ -35,7 +35,7 @@ Der Tag vertieft fortgeschrittene Anwendungen mit LLMs und Datenintegration. Jed
 
 ---
 
-## Ablauf der Einheiten
+## Ablauf der en
 
 - **Erklärung:** ca. 10–15 min
 - **Beispiele:** ca. 10 min
@@ -56,7 +56,7 @@ Am Ende des Tages wird eine App entwickelt, die folgende Funktionen kombiniert:
 
 ---
 
-## Einheit 4.1 — Datenintegration mit Pandas
+## 4.1 — Datenintegration mit Pandas
 
 ### Beispiele
 
@@ -113,7 +113,7 @@ print(df.sort_values("Einkommen", ascending=False))
 
 ---
 
-## Einheit 4.2 — Q&A über CSV-Dateien
+## 4.2 — Q&A über CSV-Dateien
 
 ### Beispiele
 
@@ -179,7 +179,7 @@ print(df.loc[df["Einkommen"].idxmax()])
 
 ---
 
-## Einheit 4.3 — KI-Dashboards mit Streamlit
+## 4.3 — KI-Dashboards mit Streamlit
 
 ### Beispiele
 
@@ -246,7 +246,7 @@ prompt = f"Vergleiche Einkommen von Männern und Frauen:\n{male.describe()}\n{fe
 
 ---
 
-## Einheit 4.4 — Deployment
+## 4.4 — Deployment
 
 ### Beispiele
 
@@ -303,7 +303,7 @@ docker run -p 8501:8501 meine-app
 
 ---
 
-## Einheit 4.5 — Bonus: Q&A über mehrere Datenquellen
+## 4.5 — Bonus: Q&A über mehrere Datenquellen
 
 ### Beispiele
 

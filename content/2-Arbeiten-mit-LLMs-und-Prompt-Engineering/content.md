@@ -4,31 +4,31 @@
 
 ### Übersicht
 
-Der Tag bietet eine praxisnahe Einführung in Large Language Models (LLMs) und Prompt Engineering. Jede Einheit kombiniert kurze Erklärungen, Code-Beispiele und praktische Übungen.
+Der Tag bietet eine praxisnahe Einführung in Large Language Models (LLMs) und Prompt Engineering. Jede kombiniert kurze Erklärungen, Code-Beispiele und praktische Übungen.
 
 ---
 
 ### Zeitplan
 
-| Zeit              | Einheit / Inhalt                                                                                   | Dauer   |
+| Zeit              | / Inhalt                                                                                   | Dauer   |
 |-------------------|----------------------------------------------------------------------------------------------------|---------|
 | **09:00 – 09:20** | Einführung & Überblick,   Was sind LLMs? Ziele des Tages                                           | 20 min  |
-| **09:20 – 09:50** | **Einheit 2.1:** Einführung in LLMs,   Hintergrund, Einsatzgebiete, Grenzen                        | 30 min  |
-| **09:50 – 10:20** | **Einheit 2.2:** Was ist ein Prompt? Prompt-Elemente, Beispiele, Übungen                           | 30 min  |
-| **10:20 – 10:50** | **Einheit 2.3:** Rollen im Prompting & Grundlagen,   System/User/Assistant, Prompt Engineering                                         | 30 min  |
+| **09:20 – 09:50** | **2.1:** Einführung in LLMs,   Hintergrund, Einsatzgebiete, Grenzen                        | 30 min  |
+| **09:50 – 10:20** | **2.2:** Was ist ein Prompt? Prompt-Elemente, Beispiele, Übungen                           | 30 min  |
+| **10:20 – 10:50** | **2.3:** Rollen im Prompting & Grundlagen,   System/User/Assistant, Prompt Engineering                                         | 30 min  |
 | **10:50 – 11:05** | ☕ **Pause**                                                                                        | 15 min  |
-| **11:05 – 11:35** | **Einheit 2.4:** Prompting-Prinzipien ,   Zero-/Few-Shot, Chain-of-Thought, Output-Format                                   | 30 min  |
-| **11:35 – 12:05** | **Einheit 2.5:** Prompt-Playground & Vergleich,   Streamlit-App, Prompt-Experimente                                                 | 30 min  |
+| **11:05 – 11:35** | **2.4:** Prompting-Prinzipien ,   Zero-/Few-Shot, Chain-of-Thought, Output-Format                                   | 30 min  |
+| **11:35 – 12:05** | **2.5:** Prompt-Playground & Vergleich,   Streamlit-App, Prompt-Experimente                                                 | 30 min  |
 | **12:05 – 13:05** | 🍽️ **Mittagspause**                                                                                | 60 min  |
-| **13:05 – 13:35** | **Einheit 2.6:** Temperatur & Kreativität ,  Parameter, Temperature, Max Tokens                                                | 30 min  |
-| **13:35 – 14:05** | **Einheit 2.7:** Vergleich verschiedener Modelle ,   llama2, mistral, codellama                                                        | 30 min  |
-| **14:05 – 14:35** | **Einheit 2.8:** Fehler & Grenzen von LLMs  ,   Halluzinationen, Bias, Kontext                                                    | 30 min  |
-| **14:35 – 14:55** | **Einheit 2.9:** Praktische Prompt-Beispiele  ,   Zusammenfassung, Rollen, Code, JSON                                               | 20 min  |
+| **13:05 – 13:35** | **2.6:** Temperatur & Kreativität ,  Parameter, Temperature, Max Tokens                                                | 30 min  |
+| **13:35 – 14:05** | **2.7:** Vergleich verschiedener Modelle ,   llama2, mistral, codellama                                                        | 30 min  |
+| **14:05 – 14:35** | **2.8:** Fehler & Grenzen von LLMs  ,   Halluzinationen, Bias, Kontext                                                    | 30 min  |
+| **14:35 – 14:55** | **2.9:** Praktische Prompt-Beispiele  ,   Zusammenfassung, Rollen, Code, JSON                                               | 20 min  |
 | **14:55 – 15:00** | **Zusammenfassung & Ausblick**  ,   Wiederholung, Fragen, nächste Schritte                                            | 5 min   |
 
 ---
 
-## Ablauf der Einheiten
+## Ablauf der en
 
 - **Erklärung:** ca. 10–15 min
 - **Code-Beispiele:** ca. 10 min
@@ -37,7 +37,7 @@ Der Tag bietet eine praxisnahe Einführung in Large Language Models (LLMs) und P
 
 ---
 
-## Einheit 2.1 — Einführung in Large Language Models (LLMs)
+## 2.1 — Einführung in Large Language Models (LLMs)
 
 ### Hintergrund
 
@@ -62,7 +62,7 @@ LLMs sind probabilistisch (nicht deterministisch), d. h. bei gleichem Prompt kan
 
 ---
 
-## Einheit 2.2 — Was ist ein Prompt?
+## 2.2 — Was ist ein Prompt?
 
 ### Hintergrund
 
@@ -113,7 +113,7 @@ prompt = f"Fasse den folgenden Text in 2 Sätzen zusammen:\n\n{text}"
 
 ---
 
-## Einheit 2.3 — Rollen im Prompting & Prompt Engineering: Grundlagen
+## 2.3 — Rollen im Prompting & Prompt Engineering: Grundlagen
 
 ### Hintergrund
 
@@ -175,7 +175,7 @@ for p in [p1, p2]:
 
 ---
 
-## Einheit 2.4 — Prompting-Prinzipien
+## 2.4 — Prompting-Prinzipien
 
 ### Hintergrund
 
@@ -242,7 +242,7 @@ Frage: Person heißt Alice und ist 30 Jahre alt."""
 
 ---
 
-## Einheit 2.5 — Prompt-Playground & Prompt-Vergleich (Streamlit-App)
+## 2.5 — Prompt-Playground & Prompt-Vergleich (Streamlit-App)
 
 ### Hintergrund
 
@@ -298,7 +298,7 @@ if st.button("Vergleichen"):
 
 ---
 
-## Einheit 2.6 — Temperatur & Steuerung der Kreativität
+## 2.6 — Temperatur & Steuerung der Kreativität
 
 ### Hintergrund
 
@@ -332,7 +332,7 @@ for t in [0.0, 0.7, 1.2]:
 
 ---
 
-## Einheit 2.7 — Vergleich verschiedener Modelle
+## 2.7 — Vergleich verschiedener Modelle
 
 ### Hintergrund
 
@@ -368,7 +368,7 @@ for m in models:
 
 ---
 
-## Einheit 2.8 — Fehler & Grenzen von LLMs
+## 2.8 — Fehler & Grenzen von LLMs
 
 ### Hintergrund
 
@@ -401,7 +401,7 @@ print(r.json()["response"])
 
 ---
 
-## Einheit 2.9 — Praktische Beispiele für Prompts
+## 2.9 — Praktische Beispiele für Prompts
 
 1. Text zusammenfassen  
    `prompt = "Fasse folgenden Text in 3 Bulletpoints zusammen:\nText: ..."`

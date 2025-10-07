@@ -36,10 +36,10 @@
             "backupPath": "/Users/Shared/CLOUD/Programmier-Workshops/Kurse/Enrichment/AI/Enrichment_AI-Kurs_Enrichment/9-Website/.vscode.usr/Backups/5c351520f34a64aa1344a89a394e4279",
             "uiState": {
                 "mode": 1,
-                "x": 1127,
-                "y": 604,
-                "width": 1380,
-                "height": 822
+                "x": 2,
+                "y": 582,
+                "width": 1438,
+                "height": 863
             }
         },
         "openedWindows": []
@@ -68,16 +68,16 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 226,
-            "auxiliaryBarWidth": 406,
+            "sideBarWidth": 233,
+            "auxiliaryBarWidth": 323,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 226,
-            "auxiliaryBarWidth": 406,
+            "sideBarWidth": 233,
+            "auxiliaryBarWidth": 323,
             "workspaces": {
                 "d85205981788e66efec393447f8a4fe7": {
                     "sideBarVisible": true,
@@ -155,8 +155,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -228,11 +227,13 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "saveAll",
@@ -273,11 +274,13 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor"
+                        "label": "&&Close Editor",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -319,11 +322,13 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find"
+                        "label": "&&Find",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace"
+                        "label": "&&Replace",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -677,13 +682,6 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -790,7 +788,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },
@@ -1407,8 +1406,8 @@
                 "userSettingsLabel": "cmd+k f"
             },
             "workbench.action.closeWindow": {
-                "label": "Shift+Cmd+W",
-                "userSettingsLabel": "shift+cmd+w"
+                "label": "Cmd+W",
+                "userSettingsLabel": "cmd+w"
             },
             "undo": {
                 "label": "Cmd+Z",
@@ -1548,11 +1547,6 @@
                 "label": "⌘K ⌃⇧⌥⌘7",
                 "isNative": false,
                 "userSettingsLabel": "cmd+k ctrl+shift+alt+cmd+7"
-            },
-            "workbench.action.splitEditorInGroup": {
-                "label": "⌘K ⌃⌥⌘7",
-                "isNative": false,
-                "userSettingsLabel": "cmd+k ctrl+alt+cmd+7"
             },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "⌘K O",

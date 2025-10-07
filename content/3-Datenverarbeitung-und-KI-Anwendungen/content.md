@@ -4,38 +4,38 @@
 
 ### Übersicht
 
-Der Tag vermittelt praxisnah die Grundlagen der KI-Textanalyse mit Ollama und Python. Jede Einheit besteht aus einer kurzen Erklärung, Beispielen und praktischen Übungen.
+Der Tag vermittelt praxisnah die Grundlagen der KI-Textanalyse mit Ollama und Python. Jede besteht aus einer kurzen Erklärung, Beispielen und praktischen Übungen.
 
 ---
 
 ### Zeitplan
 
-| Zeit              | Einheit / Inhalt                                                                                   | Dauer   |
+| Zeit              | / Inhalt                                                                                   | Dauer   |
 |-------------------|----------------------------------------------------------------------------------------------------|---------|
 | **09:00 – 09:20** | Einführung & Überblick  
   Motivation, Ziele, KI-Anwendungen                                                 | 20 min  |
-| **09:20 – 09:50** | **Einheit 3.1:** Einführung in Textanalyse  
+| **09:20 – 09:50** | **3.1:** Einführung in Textanalyse  
   Grundbegriffe, Aufgaben                                                           | 30 min  |
-| **09:50 – 10:30** | **Einheit 3.2:** Sentimentanalyse  
+| **09:50 – 10:30** | **3.2:** Sentimentanalyse  
   Stimmung erkennen, Beispiele, Übungen                                             | 40 min  |
-| **10:30 – 11:10** | **Einheit 3.3:** Themenklassifikation  
+| **10:30 – 11:10** | **3.3:** Themenklassifikation  
   Kategorien, Labeling, Übungen                                                     | 40 min  |
 | **11:10 – 11:25** | ☕ **Pause**                                                                                        | 15 min  |
-| **11:25 – 12:00** | **Einheit 3.4:** Schlüsselwort-Extraktion  
+| **11:25 – 12:00** | **3.4:** Schlüsselwort-Extraktion  
   Keywords, Listen, Übungen                                                         | 35 min  |
-| **12:00 – 12:35** | **Einheit 3.5:** Named Entity Recognition (NER)  
+| **12:00 – 12:35** | **3.5:** Named Entity Recognition (NER)  
   Personen, Orte, Organisationen                                                    | 35 min  |
 | **12:35 – 13:35** | 🍽️ **Mittagspause**                                                                                | 60 min  |
-| **13:35 – 14:05** | **Einheit 3.6:** FAQ-Bot mit Ollama  
+| **13:35 – 14:05** | **3.6:** FAQ-Bot mit Ollama  
   FAQ-Upload, Bot-Logik, Übungen                                                    | 30 min  |
-| **14:05 – 14:35** | **Einheit 3.7:** Kombination von Analysen  
+| **14:05 – 14:35** | **3.7:** Kombination von Analysen  
   Sentiment + Keywords + Entities                                                   | 30 min  |
-| **14:35 – 15:00** | **Einheit 3.8:** Analyse-Dashboard mit Streamlit  
+| **14:35 – 15:00** | **3.8:** Analyse-Dashboard mit Streamlit  
   App bauen, Zusammenfassung                                                        | 25 min  |
 
 ---
 
-## Ablauf der Einheiten
+## Ablauf der en
 
 - **Erklärung:** ca. 10–15 min
 - **Beispiele:** ca. 10 min
@@ -54,7 +54,7 @@ Am Ende des Tages wird ein Analyse-Dashboard entwickelt, das folgende Funktionen
 
 ---
 
-## Einheit 3.1 — Einführung in Textanalyse
+## 3.1 — Einführung in Textanalyse
 
 ### Hintergrund
 
@@ -69,7 +69,7 @@ LLMs sind prädestiniert für diese Aufgaben, da sie auf großen Textmengen trai
 
 ---
 
-## Einheit 3.2 — Sentimentanalyse (Stimmung erkennen)
+## 3.2 — Sentimentanalyse (Stimmung erkennen)
 
 ### Hintergrund
 
@@ -148,7 +148,7 @@ print(analyze_sentiment("Das Konzert war großartig!"))
 
 ---
 
-## Einheit 3.3 — Themenklassifikation
+## 3.3 — Themenklassifikation
 
 ### Hintergrund
 
@@ -222,7 +222,7 @@ if file:
 
 ---
 
-## Einheit 3.4 — Schlüsselwort-Extraktion
+## 3.4 — Schlüsselwort-Extraktion
 
 ### Hintergrund
 
@@ -275,7 +275,7 @@ print(extract_keywords("Microsoft investiert Milliarden in KI."))
 
 ---
 
-## Einheit 3.5 — Named Entity Recognition (NER)
+## 3.5 — Named Entity Recognition (NER)
 
 ### Hintergrund
 
@@ -336,7 +336,7 @@ print(extract_entities("Jeff Bezos gründete Amazon in Seattle."))
 
 ---
 
-## Einheit 3.6 — FAQ-Bot mit Ollama
+## 3.6 — FAQ-Bot mit Ollama
 
 ### Hintergrund
 
@@ -386,7 +386,7 @@ if files:
 
 ---
 
-## Einheit 3.7 — Kombination von Analysen (Sentiment + Keywords + Entities)
+## 3.7 — Kombination von Analysen (Sentiment + Keywords + Entities)
 
 ### Hintergrund
 
@@ -434,7 +434,7 @@ def analyze(text):
 
 ---
 
-## Einheit 3.8 — Erweiterte Streamlit-App: Analyse-Dashboard
+## 3.8 — Erweiterte Streamlit-App: Analyse-Dashboard
 
 ### Hintergrund
 

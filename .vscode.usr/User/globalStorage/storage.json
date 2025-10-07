@@ -38,8 +38,8 @@
                 "mode": 1,
                 "x": 2,
                 "y": 582,
-                "width": 1438,
-                "height": 863
+                "width": 1456,
+                "height": 856
             }
         },
         "openedWindows": []
@@ -68,16 +68,16 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 233,
-            "auxiliaryBarWidth": 323,
+            "sideBarWidth": 266,
+            "auxiliaryBarWidth": 665,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 233,
-            "auxiliaryBarWidth": 323,
+            "sideBarWidth": 266,
+            "auxiliaryBarWidth": 665,
             "workspaces": {
                 "d85205981788e66efec393447f8a4fe7": {
                     "sideBarVisible": true,
@@ -797,8 +797,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",

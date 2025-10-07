@@ -1,8 +1,8 @@
 "use client";
 
-
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
 import { chapters, getChapterHref } from "@/lib/chapters";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { DEFAULT_LOCALE, isLocale, type Locale } from "@/lib/i18n";
@@ -15,6 +15,7 @@ export default function HeaderNav() {
   const pathWithoutLocale = isLocale(maybeLocale)
     ? `/${segments.slice(1).join("/")}`
     : pathname;
+  const t = useTranslations();
 
   return (
     <header className="header">
@@ -29,7 +30,9 @@ export default function HeaderNav() {
                 href={href}
                 className={isActive ? "active" : undefined}
               >
-                {chapter.title}
+                {t(`${chapter.i18nKey}.title`, {
+                  defaultMessage: chapter.fallbackTitle,
+                })}
               </Link>
             );
           })}

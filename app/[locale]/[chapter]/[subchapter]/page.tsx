@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { getTranslations } from "next-intl/server";
 import { flattenSubchapters, getSubchapter } from "@/lib/chapters";
 import { SUPPORTED_LOCALES } from "@/lib/i18n";
 
@@ -26,9 +27,20 @@ export async function generateMetadata({ params }: PageProps) {
     return {};
   }
 
+  const t = await getTranslations({ locale: params.locale });
+  const subchapterTitle = t(result.subchapter.i18nKey, {
+    defaultMessage: result.subchapter.fallbackTitle,
+  });
+  const chapterTitle = t(`${result.chapter.i18nKey}.title`, {
+    defaultMessage: result.chapter.fallbackTitle,
+  });
+  const description = t(`${result.chapter.i18nKey}.description`, {
+    defaultMessage: result.chapter.fallbackDescription,
+  });
+
   return {
-    title: `${result.subchapter.title} — ${result.chapter.title}`,
-    description: result.chapter.description,
+    title: `${subchapterTitle} — ${chapterTitle}`,
+    description,
   };
 }
 

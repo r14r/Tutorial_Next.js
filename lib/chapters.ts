@@ -5,20 +5,35 @@ export type ContentModule = {
   default: ComponentType;
 };
 
-type Subchapter = {
+type SubchapterConfig = {
   slug: string;
   title: string;
-  load: () => Promise<ContentModule>;
 };
 
-type Chapter = {
+type ChapterConfig = {
   slug: string;
   title: string;
   description: string;
+  basePath: string;
+  subchapters: SubchapterConfig[];
+};
+
+export type Subchapter = {
+  slug: string;
+  i18nKey: string;
+  fallbackTitle: string;
+  load: () => Promise<ContentModule>;
+};
+
+export type Chapter = {
+  slug: string;
+  i18nKey: string;
+  fallbackTitle: string;
+  fallbackDescription: string;
   subchapters: Subchapter[];
 };
 
-const chapterConfigs = [
+const chapterConfigs: ChapterConfig[] = [
   {
     slug: "einfuhrung-in-ki-und-ollama",
     title: "Tag 1",
@@ -87,13 +102,21 @@ const chapterConfigs = [
   },
 ];
 
-export const chapters: Chapter[] = chapterConfigs.map(({ basePath, ...chapter }) => ({
-  ...chapter,
-  subchapters: chapter.subchapters.map((sub) => ({
-    ...sub,
-    load: () => import(`@/content/${basePath}/${sub.slug}.md`),
-  })),
-}));
+export const chapters: Chapter[] = chapterConfigs.map(({ basePath, ...chapter }) => {
+  const chapterI18nKey = `chapters.${chapter.slug}`;
+  return {
+    slug: chapter.slug,
+    i18nKey: chapterI18nKey,
+    fallbackTitle: chapter.title,
+    fallbackDescription: chapter.description,
+    subchapters: chapter.subchapters.map((sub) => ({
+      slug: sub.slug,
+      i18nKey: `${chapterI18nKey}.subchapters.${sub.slug}`,
+      fallbackTitle: sub.title,
+      load: () => import(`@/content/${basePath}/${sub.slug}.md`),
+    })),
+  };
+});
 
 export function getChapterHref(slug: string, locale?: string) {
   const chapter = chapters.find((chapter) => chapter.slug === slug);

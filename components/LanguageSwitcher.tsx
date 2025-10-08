@@ -3,10 +3,10 @@
 import { useRouter, usePathname } from 'next/navigation';
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES, isLocale, type Locale } from '@/lib/i18n';
 
-const LANGUAGE_LABELS: Record<Locale, string> = {
-  de: 'Deutsch',
-  en: 'English',
-  mr: 'मराठी',
+const LANGUAGE_META: Record<Locale, { label: string; flag: string }> = {
+  de: { label: 'Deutsch', flag: '🇩🇪' },
+  en: { label: 'English', flag: '🇺🇸' },
+  mr: { label: 'मराठी', flag: '🇮🇳' },
 };
 
 function getCurrentLocale(pathname: string): Locale {
@@ -23,9 +23,7 @@ export default function LanguageSwitcher() {
   const pathname = usePathname();
   const currentLocale = getCurrentLocale(pathname);
 
-  const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    const nextLocale = event.target.value as Locale;
-
+  const handleLocaleSelection = (nextLocale: Locale) => {
     if (nextLocale === currentLocale) {
       return;
     }
@@ -42,12 +40,27 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <select onChange={handleChange} value={currentLocale}>
-      {SUPPORTED_LOCALES.map((locale) => (
-        <option key={locale} value={locale}>
-          {LANGUAGE_LABELS[locale]}
-        </option>
-      ))}
-    </select>
+    <div className="language-switcher" role="group" aria-label="Sprachauswahl">
+      {SUPPORTED_LOCALES.map((locale) => {
+        const { label, flag } = LANGUAGE_META[locale];
+        const isActive = locale === currentLocale;
+
+        return (
+          <button
+            key={locale}
+            type="button"
+            onClick={() => handleLocaleSelection(locale)}
+            aria-pressed={isActive}
+            aria-label={label}
+            title={label}
+            className="language-switcher__button"
+          >
+            <span aria-hidden="true" role="img">
+              {flag}
+            </span>
+          </button>
+        );
+      })}
+    </div>
   );
 }

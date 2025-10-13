@@ -1,0 +1,6 @@
+st.image("./header.png")
+st.logo("logo.jpg")
+st.pdf("my_document.pdf")
+st.audio(data)
+st.video(data)
+st.video(data, subtitles="./subs.vtt")

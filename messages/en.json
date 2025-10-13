@@ -2,62 +2,62 @@
   "title": "Welcome",
   "description": "This is the English version.",
   "chapters": {
-    "einfuhrung-in-ki-und-ollama": {
+    "day-1": {
       "title": "Day 1",
       "description": "Introduction to AI & Ollama fundamentals.",
       "subchapters": {
-        "content": "Overview",
-        "1-1": "1 — What is artificial intelligence (AI)?",
-        "1-2": "2 — Getting started with Ollama",
-        "1-3": "3 — Ollama on the command line (CLI)",
-        "1-4": "4 — Ollama API via the command line (cURL)",
-        "1-5": "5 — Accessing the API with Python (Requests)",
-        "1-6": "6 — Using the Ollama SDKs",
-        "1-7": "7 — Fundamentals of working with LLMs",
-        "1-8": "8 — Prompt engineering basics"
+        "overview": "Overview",
+        "intro-to-ai": "1 — What is artificial intelligence (AI)?",
+        "ollama-getting-started": "2 — Getting started with Ollama",
+        "ollama-cli": "3 — Ollama with command line",
+        "ollama-api-curl": "4 — Ollama API via cURL",
+        "api-python": "5 — Accessing the API",
+        "ollama-sdks": "6 — Using the Ollama SDKs",
+        "llm-basics": "7 — Fundamentals of working with LLMs",
+        "prompt-basics": "8 — Prompt engineering basics"
       }
     },
-    "arbeiten-mit-llms-und-prompt-engineering": {
+    "day-2": {
       "title": "Day 2",
       "description": "Working with LLMs & prompt engineering.",
       "subchapters": {
-        "content": "Overview",
-        "2-1": "1 — Introduction to large language models (LLMs)",
-        "2-2": "2 — What is a prompt?",
-        "2-3": "3 — Roles in prompting & prompt engineering fundamentals",
-        "2-4": "4 — Prompting principles",
-        "2-5": "5 — Prompt playground & prompt comparison (Streamlit app)",
-        "2-6": "6 — Temperature & controlling creativity",
-        "2-7": "7 — Comparing different models",
-        "2-8": "8 — Failures & limitations of LLMs",
-        "2-9": "9 — Practical prompt examples"
+        "overview": "Overview",
+        "llm-intro": "1 — Introduction to large language models (LLMs)",
+        "what-is-a-prompt": "2 — What is a prompt?",
+        "prompt-roles": "3 — Roles in prompting & prompt engineering fundamentals",
+        "prompt-principles": "4 — Prompting principles",
+        "prompt-playground": "5 — Prompt playground & prompt comparison (Streamlit app)",
+        "temperature-creativity": "6 — Temperature & controlling creativity",
+        "model-comparison": "7 — Comparing different models",
+        "llm-limitations": "8 — Failures & limitations of LLMs",
+        "prompt-examples": "9 — Practical prompt examples"
       }
     },
-    "datenverarbeitung-und-ki-anwendungen": {
+    "day-3": {
       "title": "Day 3",
       "description": "Data processing & AI applications.",
       "subchapters": {
-        "content": "Overview",
-        "3-1": "1 — Introduction to text analytics",
-        "3-2": "2 — Sentiment analysis",
-        "3-3": "3 — Topic classification",
-        "3-4": "4 — Keyword extraction",
-        "3-5": "5 — Named entity recognition (NER)",
-        "3-6": "6 — FAQ bot with Ollama",
-        "3-7": "7 — Combining analyses (sentiment + keywords + entities)",
-        "3-8": "8 — Advanced Streamlit app: analytics dashboard"
+        "overview": "Overview",
+        "text-analytics": "1 — Introduction to text analytics",
+        "sentiment-analysis": "2 — Sentiment analysis",
+        "topic-classification": "3 — Topic classification",
+        "keyword-extraction": "4 — Keyword extraction",
+        "ner": "5 — Named entity recognition (NER)",
+        "faq-bot": "6 — FAQ bot with Ollama",
+        "combined-analytics": "7 — Combining analyses (sentiment + keywords + entities)",
+        "analytics-dashboard": "8 — Advanced Streamlit app: analytics dashboard"
       }
     },
-    "fortgeschrittene-anwendungen-mit-llms-und-daten": {
+    "day-4": {
       "title": "Day 4",
       "description": "Advanced applications with LLMs & data.",
       "subchapters": {
-        "content": "Overview",
-        "4-1": "1 — Data integration with Pandas",
-        "4-2": "2 — Q&A over CSV files",
-        "4-3": "3 — AI dashboards with Streamlit",
-        "4-4": "4 — Deployment",
-        "4-5": "5 — Bonus: Q&A across multiple data sources"
+        "overview": "Overview",
+        "pandas-integration": "1 — Data integration with Pandas",
+        "csv-qa": "2 — Q&A over CSV files",
+        "ai-dashboards": "3 — AI dashboards with Streamlit",
+        "deployment": "4 — Deployment",
+        "multi-source-qa": "5 — Bonus: Q&A across multiple data sources"
       }
     }
   }

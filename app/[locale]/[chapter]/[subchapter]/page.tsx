@@ -51,7 +51,7 @@ export default async function SubchapterPage({ params }: PageProps) {
   }
 
   const { subchapter } = result;
-  const Content = (await subchapter.load()).default;
+  const Content = (await subchapter.load(params.locale)).default;
 
   return (
     <article>

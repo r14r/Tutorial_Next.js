@@ -5,7 +5,7 @@ const withMDX = createMDX({
   extension: /.mdx?$/,
 });
 
-const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
+const withNextIntl = createNextIntlPlugin('./lib/i18n/request.ts');
 
 const nextConfig = withNextIntl(
   withMDX({

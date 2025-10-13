@@ -1,5 +1,5 @@
 import type { ComponentType } from "react";
-import { isLocale } from "./i18n";
+import { DEFAULT_LOCALE, isLocale } from "./i18n";
 
 export type ContentModule = {
   default: ComponentType;
@@ -8,6 +8,7 @@ export type ContentModule = {
 type SubchapterConfig = {
   slug: string;
   title: string;
+  file: string;
 };
 
 type ChapterConfig = {
@@ -22,7 +23,7 @@ export type Subchapter = {
   slug: string;
   i18nKey: string;
   fallbackTitle: string;
-  load: () => Promise<ContentModule>;
+  load: (locale?: string) => Promise<ContentModule>;
 };
 
 export type Chapter = {
@@ -35,72 +36,121 @@ export type Chapter = {
 
 const chapterConfigs: ChapterConfig[] = [
   {
-    slug: "einfuhrung-in-ki-und-ollama",
+    slug: "day-1",
     title: "Tag 1",
     description: "Einführung in KI & Ollama Grundlagen.",
-    basePath: "1-Einführung-in-KI-und-Ollama",
+    basePath: "day-1",
     subchapters: [
-      { slug: "content", title: "Inhalt" },
-      { slug: "1-1", title: "1 — Was ist Künstliche Intelligenz (KI)?" },
-      { slug: "1-2", title: "2 — Einstieg in Ollama" },
-      { slug: "1-3", title: "3 — Ollama in der Kommandozeile (CLI)" },
-      { slug: "1-4", title: "4 — Ollama API mit der Kommandozeile (cURL)" },
-      { slug: "1-5", title: "5 — Zugriff über die API mit Python (Requests)" },
-      { slug: "1-6", title: "6 — Nutzung der Ollama SDKs" },
-      { slug: "1-7", title: "7 — Grundlagen der Arbeit mit LLMs" },
-      { slug: "1-8", title: "8 — Prompt Engineering Grundlagen" },
+      { slug: "overview", file: "content", title: "Inhalt" },
+      { slug: "intro-to-ai", file: "1-1", title: "1 — Was ist Künstliche Intelligenz (KI)?" },
+      { slug: "ollama-getting-started", file: "1-2", title: "2 — Einstieg in Ollama" },
+      { slug: "ollama-cli", file: "1-3", title: "3 — Ollama in der Kommandozeile (CLI)" },
+      { slug: "ollama-api-curl", file: "1-4", title: "4 — Ollama API mit der Kommandozeile (cURL)" },
+      { slug: "api-python", file: "1-5", title: "5 — Zugriff über die API mit Python (Requests)" },
+      { slug: "ollama-sdks", file: "1-6", title: "6 — Nutzung der Ollama SDKs" },
+      { slug: "llm-basics", file: "1-7", title: "7 — Grundlagen der Arbeit mit LLMs" },
+      { slug: "prompt-basics", file: "1-8", title: "8 — Prompt Engineering Grundlagen" },
     ],
   },
   {
-    slug: "arbeiten-mit-llms-und-prompt-engineering",
+    slug: "day-2",
     title: "Tag 2",
     description: "Arbeiten mit LLMs & Prompt Engineering.",
-    basePath: "2-Arbeiten-mit-LLMs-und-Prompt-Engineering",
+    basePath: "day-2",
     subchapters: [
-      { slug: "content", title: "Inhalt" },
-      { slug: "2-1", title: "1 — Einführung in Large Language Models (LLMs)" },
-      { slug: "2-2", title: "2 — Was ist ein Prompt?" },
-      { slug: "2-3", title: "3 — Rollen im Prompting & Prompt Engineering: Grundlagen" },
-      { slug: "2-4", title: "4 — Prompting-Prinzipien" },
-      { slug: "2-5", title: "5 — Prompt-Playground & Prompt-Vergleich (Streamlit-App)" },
-      { slug: "2-6", title: "6 — Temperatur & Steuerung der Kreativität" },
-      { slug: "2-7", title: "7 — Vergleich verschiedener Modelle" },
-      { slug: "2-8", title: "8 — Fehler & Grenzen von LLMs" },
-      { slug: "2-9", title: "9 — Praktische Beispiele für Prompts" },
+      { slug: "overview", file: "content", title: "Inhalt" },
+      { slug: "llm-intro", file: "2-1", title: "1 — Einführung in Large Language Models (LLMs)" },
+      { slug: "what-is-a-prompt", file: "2-2", title: "2 — Was ist ein Prompt?" },
+      { slug: "prompt-roles", file: "2-3", title: "3 — Rollen im Prompting & Prompt Engineering: Grundlagen" },
+      { slug: "prompt-principles", file: "2-4", title: "4 — Prompting-Prinzipien" },
+      { slug: "prompt-playground", file: "2-5", title: "5 — Prompt-Playground & Prompt-Vergleich (Streamlit-App)" },
+      { slug: "temperature-creativity", file: "2-6", title: "6 — Temperatur & Steuerung der Kreativität" },
+      { slug: "model-comparison", file: "2-7", title: "7 — Vergleich verschiedener Modelle" },
+      { slug: "llm-limitations", file: "2-8", title: "8 — Fehler & Grenzen von LLMs" },
+      { slug: "prompt-examples", file: "2-9", title: "9 — Praktische Beispiele für Prompts" },
     ],
   },
   {
-    slug: "datenverarbeitung-und-ki-anwendungen",
+    slug: "day-3",
     title: "Tag 3",
     description: "Datenverarbeitung & KI-Anwendungen.",
-    basePath: "3-Datenverarbeitung-und-KI-Anwendungen",
+    basePath: "day-3",
     subchapters: [
-      { slug: "content", title: "Inhalt" },
-      { slug: "3-1", title: "1 — Einführung in Textanalyse" },
-      { slug: "3-2", title: "2 — Sentimentanalyse (Stimmung erkennen)" },
-      { slug: "3-3", title: "3 — Themenklassifikation" },
-      { slug: "3-4", title: "4 — Schlüsselwort-Extraktion" },
-      { slug: "3-5", title: "5 — Named Entity Recognition (NER)" },
-      { slug: "3-6", title: "6 — FAQ-Bot mit Ollama" },
-      { slug: "3-7", title: "7 — Kombination von Analysen (Sentiment + Keywords + Entities)" },
-      { slug: "3-8", title: "8 — Erweiterte Streamlit-App: Analyse-Dashboard" },
+      { slug: "overview", file: "content", title: "Inhalt" },
+      { slug: "text-analytics", file: "3-1", title: "1 — Einführung in Textanalyse" },
+      { slug: "sentiment-analysis", file: "3-2", title: "2 — Sentimentanalyse (Stimmung erkennen)" },
+      { slug: "topic-classification", file: "3-3", title: "3 — Themenklassifikation" },
+      { slug: "keyword-extraction", file: "3-4", title: "4 — Schlüsselwort-Extraktion" },
+      { slug: "ner", file: "3-5", title: "5 — Named Entity Recognition (NER)" },
+      { slug: "faq-bot", file: "3-6", title: "6 — FAQ-Bot mit Ollama" },
+      { slug: "combined-analytics", file: "3-7", title: "7 — Kombination von Analysen (Sentiment + Keywords + Entities)" },
+      { slug: "analytics-dashboard", file: "3-8", title: "8 — Erweiterte Streamlit-App: Analyse-Dashboard" },
     ],
   },
   {
-    slug: "fortgeschrittene-anwendungen-mit-llms-und-daten",
+    slug: "day-4",
     title: "Tag 4",
     description: "Fortgeschrittene Anwendungen mit LLMs & Daten.",
-    basePath: "4-Fortgeschrittene-Anwendungen-mit-LLMs-und-Daten",
+    basePath: "day-4",
     subchapters: [
-      { slug: "content", title: "Inhalt" },
-      { slug: "4-1", title: "1 — Datenintegration mit Pandas" },
-      { slug: "4-2", title: "2 — Q&A über CSV-Dateien" },
-      { slug: "4-3", title: "3 — KI-Dashboards mit Streamlit" },
-      { slug: "4-4", title: "4 — Deployment" },
-      { slug: "4-5", title: "5 — Bonus: Q&A über mehrere Datenquellen" },
+      { slug: "overview", file: "content", title: "Inhalt" },
+      { slug: "pandas-integration", file: "4-1", title: "1 — Datenintegration mit Pandas" },
+      { slug: "csv-qa", file: "4-2", title: "2 — Q&A über CSV-Dateien" },
+      { slug: "ai-dashboards", file: "4-3", title: "3 — KI-Dashboards mit Streamlit" },
+      { slug: "deployment", file: "4-4", title: "4 — Deployment" },
+      { slug: "multi-source-qa", file: "4-5", title: "5 — Bonus: Q&A über mehrere Datenquellen" },
     ],
   },
 ];
+
+function isModuleNotFoundError(error: unknown) {
+  if (!(error instanceof Error)) {
+    return false;
+  }
+
+  const message = error.message || "";
+  const code = (error as NodeJS.ErrnoException).code;
+
+  return message.includes("Cannot find module") || message.includes("Module not found") || code === "MODULE_NOT_FOUND";
+}
+
+async function loadContentModule(basePath: string, file: string, locale?: string) {
+  const attempted = new Set<string>();
+  const candidates: string[] = [];
+
+  const pushCandidate = (value: string) => {
+    if (!attempted.has(value)) {
+      attempted.add(value);
+      candidates.push(value);
+    }
+  };
+
+  const normalizedBase = `${basePath}/${file}`;
+
+  if (locale && isLocale(locale)) {
+    pushCandidate(`${locale}/${normalizedBase}`);
+    pushCandidate(`${normalizedBase}.${locale}`);
+  }
+
+  if (!locale || locale !== DEFAULT_LOCALE) {
+    pushCandidate(`${DEFAULT_LOCALE}/${normalizedBase}`);
+    pushCandidate(`${normalizedBase}.${DEFAULT_LOCALE}`);
+  }
+
+  pushCandidate(normalizedBase);
+
+  for (const candidate of candidates) {
+    try {
+      return await import(`@/content/${candidate}.md`);
+    } catch (error) {
+      if (!isModuleNotFoundError(error)) {
+        throw error;
+      }
+    }
+  }
+
+  throw new Error(`Unable to load content for ${basePath}/${file}`);
+}
 
 export const chapters: Chapter[] = chapterConfigs.map(({ basePath, ...chapter }) => {
   const chapterI18nKey = `chapters.${chapter.slug}`;
@@ -113,7 +163,7 @@ export const chapters: Chapter[] = chapterConfigs.map(({ basePath, ...chapter })
       slug: sub.slug,
       i18nKey: `${chapterI18nKey}.subchapters.${sub.slug}`,
       fallbackTitle: sub.title,
-      load: () => import(`@/content/${basePath}/${sub.slug}.md`),
+      load: (locale?: string) => loadContentModule(basePath, sub.file, locale),
     })),
   };
 });

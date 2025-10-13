@@ -1,0 +1,9 @@
+st.context.cookies
+st.context.headers
+st.context.ip_address
+st.context.is_embedded
+st.context.locale
+st.context.theme.type
+st.context.timezone
+st.context.timezone_offset
+st.context.url
